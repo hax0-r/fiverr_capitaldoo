@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
     <link rel="stylesheet" href="./Docs/Styles/global.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -26,8 +27,56 @@
                 logo
             </a>
             <ul class=" items-center justify-center gap-8 lg:flex hidden ">
-                <li> <a href="" class="hover:text-indigo-600 transition-all duration-500">
-                        Home</a></li>
+                <li class="flex group cursor-pointer items-center gap-2 relative"> partnership <i
+                        class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
+                    <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
+                        <div
+                            class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
+                            <ul>
+                                <li><a href=""
+                                        class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
+                                        affiliates </a></li>
+                                <li><a href=""
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        ibs </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="flex group cursor-pointer items-center gap-2 relative"> trading <i
+                        class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
+                    <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
+                        <div
+                            class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
+                            <ul>
+                                <li><a href=""
+                                        class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
+                                        funding </a></li>
+                                <li><a href=""
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        account </a></li>
+                                <li><a href=""
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        technology </a></li>
+                                <li><a href=""
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        pricing-model </a></li>
+                                <li><a href=""
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        vps </a></li>
+                                <li><a href=""
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        mt4-vs-mt5 </a></li>
+                                <li><a href=""
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        metatrader5 </a></li>
+                                <li><a href=""
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        metatrader4 </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
                 <li class="flex group cursor-pointer items-center gap-2 relative"> Market <i
                         class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
                     <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
@@ -36,31 +85,31 @@
                             <ul>
                                 <li><a href=""
                                         class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
-                                        Securites </a></li>
+                                        Stock Indices </a></li>
                                 <li><a href=""
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        Future </a></li>
+                                        commodities </a></li>
                                 <li><a href=""
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        Forex </a></li>
+                                        Precious Metal </a></li>
                                 <li><a href=""
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        Metals </a></li>
+                                        forex </a></li>
                                 <li><a href=""
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        Commodities </a></li>
+                                        futures </a></li>
                                 <li><a href=""
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        Indices </a></li>
+                                        securities </a></li>
                             </ul>
                         </div>
                     </div>
                 </li>
-                <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Tools</a></li>
-                <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Trading</a></li>
-                <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Promotion</a></li>
-                <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Partnership</a></li>
-                <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> About Us</a></li>
+                <li> <a href="./about-us.html" class="hover:text-indigo-600 transition-all duration-500"> About</a></li>
+                <li> <a href="./contactUs.html" class="hover:text-indigo-600 transition-all duration-500"> Contact</a>
+                </li>
+                <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Compliance</a></li>
+                <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Csr</a></li>
             </ul>
             <button
                 class="px-10 p-2.5 rounded-lg border-2 text-white  lg:block hidden bg-indigo-600 border-indigo-600 font-medium transition-all duration-500 hover:bg-transparent hover:text-indigo-600">Login</button>
@@ -81,9 +130,6 @@
 
             <div class="mt-8 text-nowrap px-5 w-full flex flex-col gap-10 justify-between h-[80vh] overflow-auto">
                 <ul class="  flex-col gap-8 flex ">
-                    <li> <a href="./index.html" class="hover:text-[#35c087] transition-all duration-500">
-                            Home</a>
-                    </li>
                     <li class="bg-white " x-data="accordion(1)">
                         <h2 @click="handleClick()"
                             class="flex flex-row justify-between items-center font-medium  cursor-pointer">
@@ -97,34 +143,94 @@
                                 <ul>
                                     <li><a href=""
                                             class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
-                                            Securites</a></li>
+                                            Stock Indices </a></li>
                                     <li><a href=""
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                            Future</a></li>
+                                            commodities </a></li>
                                     <li><a href=""
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                            Forex</a></li>
+                                            Precious Metal </a></li>
                                     <li><a href=""
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                            Metals</a></li>
+                                            Forex </a></li>
                                     <li><a href=""
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                            Commodities</a></li>
+                                            Futures </a></li>
                                     <li><a href=""
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                            Stock Indices</a></li>
+                                            Stock securities </a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li> <a href="" class="hover:text-indigo-600 transition-all duration-500">
-                            Tools</a>
+                    <li class="bg-white " x-data="accordion(2)">
+                        <h2 @click="handleClick()"
+                            class="flex flex-row justify-between items-center font-medium  cursor-pointer">
+                            <span>Partnership</span>
+                            <i :class="handleRotate()" class="fa-solid fa-angle-down transition-all duration-500"></i>
+                        </h2>
+                        <div x-ref="tab" :style="handleToggle()"
+                            class="overflow-hidden max-h-0 duration-500 transition-all">
+                            <div
+                                class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white mt-5">
+                                <ul>
+                                    <li><a href=""
+                                            class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
+                                            Affiliates </a></li>
+                                    <li><a href=""
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Ibs </a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
-                    <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Trading</a>
+                    <li class="bg-white " x-data="accordion(3)">
+                        <h2 @click="handleClick()"
+                            class="flex flex-row justify-between items-center font-medium  cursor-pointer">
+                            <span>Trading</span>
+                            <i :class="handleRotate()" class="fa-solid fa-angle-down transition-all duration-500"></i>
+                        </h2>
+                        <div x-ref="tab" :style="handleToggle()"
+                            class="overflow-hidden max-h-0 duration-500 transition-all">
+                            <div
+                                class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white mt-5">
+                                <ul>
+                                    <li><a href=""
+                                            class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
+                                            Funding </a></li>
+                                    <li><a href=""
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Account </a></li>
+                                    <li><a href=""
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Technology </a></li>
+                                    <li><a href=""
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Pricing Model </a></li>
+                                    <li><a href=""
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Mt4 vs Mt5 </a></li>
+                                    <li><a href=""
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Vps </a></li>
+                                    <li><a href=""
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Metatrader 4 </a></li>
+                                    <li><a href=""
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Metatrader 5 </a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
-                    <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Promotion</a></li>
-                    <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Partnership</a></li>
-                    <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> About Us</a></li>
+                    <li> <a href="./about-us.html" class="hover:text-indigo-600 transition-all duration-500">
+                            About Us</a>
+                    </li>
+                    <li> <a href="./contactUs.html" class="hover:text-indigo-600 transition-all duration-500"> Contact
+                            Us</a>
+                    </li>
+                    <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Compliance</a></li>
+                    <li> <a href="" class="hover:text-indigo-600 transition-all duration-500"> Csr</a></li>
                 </ul>
 
                 <button
@@ -157,7 +263,7 @@
 
             </p>
             <a href="javascript:;"
-                class="w-full md:w-auto md:mb-10 inline-flex items-center justify-center py-3 px-7 text-base font-semibold text-center text-white rounded-full bg-indigo-600 shadow-xs hover:bg-indigo-700 transition-all duration-500">
+                class="w-full md:w-auto md:mb-16 inline-flex items-center justify-center py-3 px-7 text-base font-semibold text-center text-white rounded-full bg-indigo-600 shadow-xs hover:bg-indigo-700 transition-all duration-500">
                 Create an account
                 <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -166,9 +272,9 @@
                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </a>
-            <div class="flex justify-center">
-                <img src="./Docs/Assets/download.png" alt="Dashboard image"
-                    class="rounded-t-3xl w-full h-auto object-cover" />
+            <div class="flex justify-center max-w-4xl mx-auto">
+                <img src="https://direct-website.azureedge.net/assets/img/svelte-home/platforms/new/platforms.webp"
+                    alt="Dashboard image" class="rounded-t-3xl w-full h-auto object-cover" />
             </div>
         </div>
     </section>
@@ -531,7 +637,8 @@
                     </div>
                     <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
                         Register</h4>
-                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> Choose an account type and complete our fast and secure application form
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> Choose an
+                        account type and complete our fast and secure application form
 
                     </p>
                     <button class="bg-indigo-600 shadow-sm rounded-full py-2 px-5 text-xs text-white font-semibold">Read
@@ -549,8 +656,9 @@
                     </div>
                     <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
                         Verify</h4>
-                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> Use our digital onboarding system for fast verification
-system
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> Use our
+                        digital onboarding system for fast verification
+                        system
                     </p>
                     <button class="bg-indigo-600 shadow-sm rounded-full py-2 px-5 text-xs text-white font-semibold">Read
                         More</button>
@@ -567,7 +675,8 @@ system
                     </div>
                     <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
                         Fund</h4>
-                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> Fund your trading account using a wide range of funding methods
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> Fund your
+                        trading account using a wide range of funding methods
                     </p>
                     <button class="bg-indigo-600 shadow-sm rounded-full py-2 px-5 text-xs text-white font-semibold">Read
                         More</button>
@@ -584,7 +693,8 @@ system
                     </div>
                     <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
                         Trade</h4>
-                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> Start trading on your live account and access +2,100 instruments
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> Start
+                        trading on your live account and access +2,100 instruments
                     </p>
                     <button class="bg-indigo-600 shadow-sm rounded-full py-2 px-5 text-xs text-white font-semibold">Read
                         More</button>
@@ -639,21 +749,23 @@ system
             </li>
         </ul>
         <a href="javascript:;"
-            class="py-4 px-8 bg-indigo-600 shadow-sm rounded-full transition-all duration-500 text-lg text-white font-semibold text-center w-fit hover:bg-indigo-700 mx-auto">Payment Method</a>
+            class="py-4 px-8 bg-indigo-600 shadow-sm rounded-full transition-all duration-500 text-lg text-white font-semibold text-center w-fit hover:bg-indigo-700 mx-auto">Payment
+            Method</a>
 
-            <p class="text-center text-xs pt-5 text-gray-600">For more information on deposits, withdrawals and how to fund your trading account, <a href="" class="text-black">Go here</a>
+        <p class="text-center text-xs pt-5 text-gray-600">For more information on deposits, withdrawals and how to fund
+            your trading account, <a href="" class="text-black">Go here</a>
 
-            </p>
-            
+        </p>
+
         <!--List End-->
     </div>
-
 
     <!-- Subscribe -->
 
     <div class="w-full grid gap-7 p-4 max-w-4xl mx-auto md:mt-20 mt-10">
         <div class="grid gap-3">
-            <h2 class="text-center text-gray-900 md:text-3xl text-2xl font-bold font-manrope leading-10">Ready to Superpower Your
+            <h2 class="text-center text-gray-900 md:text-3xl text-2xl font-bold font-manrope leading-10">Ready to
+                Superpower Your
                 Ideas?</h2>
             <p class="xl:max-w-2xl w-full mx-auto text-center text-gray-500 text-base font-normal leading-relaxed">Lorem
                 Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's
@@ -663,7 +775,8 @@ system
             <h2 class="text-center text-gray-500 text-sm font-semibold leading-snug">Subscribe to Update</h2>
             <div
                 class="pl-7 pr-1.5 py-1.5 rounded-full border border-gray-300 justify-between items-center inline-flex">
-                <input class="focus:outline-none text-black w-full text-opacity-20 text-base font-normal leading-relaxed"
+                <input
+                    class="focus:outline-none text-black w-full text-opacity-20 text-base font-normal leading-relaxed"
                     placeholder="Enter email to Subscribe">
                 <button
                     class="px-5 py-3 bg-indigo-600 hover:bg-indigo-700 transition-all duration-500 rounded-full shadow-sm">
@@ -673,9 +786,9 @@ system
         </div>
     </div>
 
-     <!-- footer -->
+    <!-- footer -->
 
-     <footer class="w-full md:mt-20">
+    <footer class="w-full md:mt-20">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <!--Grid-->
             <div
@@ -684,20 +797,18 @@ system
                     <a href="https://pagedone.io/" class="flex justify-center lg:justify-start">
                         logo
                     </a>
-                    <!-- <div class="">
-                       
-                        
-                       
-
-                       
-                       
-                    </div> -->
-                    <p class="pt-8 block pb-3 text-sm lg:max-w-xs text-center lg:text-left font-semibold text-black">Contac Us </p>
-                    <a href="" class="block  text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">  en.sales@capitaldoo.com（Account Manager） </a>
-                    <a href="" class="py-3 block text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">   technical@capitaldoo.com（Technical Support）</a>
-                    <p class="pt-5 block text-sm lg:max-w-xs text-center lg:text-left font-semibold text-black">Email </p>
-                    <a href="" class="py-3 block text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">  +66 02 0260 620 (Asia – Thailand)</a>
-                    <a href="" class="pb-3 block text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">  +66 02 0260 620 (Asia – Thailand)</a>
+                    <p class="pt-8 block pb-3 text-sm lg:max-w-xs text-center lg:text-left font-semibold text-black">
+                        Contac Us </p>
+                    <a href="" class="block  text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">
+                        en.sales@capitaldoo.com（Account Manager） </a>
+                    <a href="" class="py-3 block text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">
+                        technical@capitaldoo.com（Technical Support）</a>
+                    <p class="pt-5 block text-sm lg:max-w-xs text-center lg:text-left font-semibold text-black">Email
+                    </p>
+                    <a href="" class="py-3 block text-sm text-gray-500 lg:max-w-xs text-center lg:text-left"> +66 02
+                        0260 620 (Asia – Thailand)</a>
+                    <a href="" class="pb-3 block text-sm text-gray-500 lg:max-w-xs text-center lg:text-left"> +66 02
+                        0260 620 (Asia – Thailand)</a>
                     <a href="javascript:;"
                         class="py-2.5 px-5 h-9 block w-fit bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-indigo-700 lg:mx-0">
                         Contact us
@@ -707,45 +818,60 @@ system
                 <div class="lg:mx-auto text-left ">
                     <h4 class="text-lg text-gray-900 font-medium mb-7">Market</h4>
                     <ul class="text-sm  transition-all duration-500">
-                        <li class="mb-6"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Securites</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Future</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Forex</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Precious Metal</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Commodities</a></li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Stock Indics</a></li>
-                    </ul>
-                </div>
-                <!--End Col-->
-                <div class="lg:mx-auto text-left ">
-                    <h4 class="text-lg text-gray-900 font-medium mb-7">Tools</h4>
-                    <ul class="text-sm  transition-all duration-500">
-                        <li class="mb-6"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Metatrader 4</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Metatrader 5</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Metatrader 6</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Metatrader 7</a></li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Metatrader 8</a>
+                        <li class="mb-4"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Securities</a>
                         </li>
+                        <li class="mb-4"><a href="javascript:;"
+                                class=" text-gray-600 hover:text-gray-900">Commodities</a></li>
+                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Forex</a>
+                        </li>
+                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Precious
+                                Metal</a></li>
+                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">precious
+                                Metal</a></li>
+                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Futures</a>
+                        </li>
+                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Stock Indics</a></li>
                     </ul>
                 </div>
                 <!--End Col-->
                 <div class="lg:mx-auto text-left">
                     <h4 class="text-lg text-gray-900 font-medium mb-7">Trading</h4>
                     <ul class="text-sm  transition-all duration-500">
-                        <li class="mb-6"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Pricing Model</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">technology</a></li>
-                        <li class="mb-6"><a href="javascript:;"
-                                class=" text-gray-600 hover:text-gray-900">Accounts</a></li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Funding</a></li>
+                        <li class="mb-4"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Pricing
+                                Model</a></li>
+                        <li class="mb-4"><a href="javascript:;"
+                                class=" text-gray-600 hover:text-gray-900">technology</a></li>
+                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Accounts</a>
+                        </li>
+                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Funding</a></li>
+                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">vps</a></li>
+                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Mt4 vs Mt5</a></li>
+                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Metatrader 4</a></li>
+                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Metatrader 5</a></li>
+                    </ul>
+                </div>
+                <!--End Col-->
+                <div class="lg:mx-auto text-left ">
+                    <h4 class="text-lg text-gray-900 font-medium mb-7">Partnership</h4>
+                    <ul class="text-sm  transition-all duration-500">
+                        <li class="mb-4"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Affiliates</a>
+                        </li>
+                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Ibs 5</a>
+                        </li>
+                        </li>
                     </ul>
                 </div>
                 <!--End Col-->
                 <div class="lg:mx-auto text-left">
-                    <h4 class="text-lg text-gray-900 font-medium mb-7">About Us</h4>
+                    <h4 class="text-lg text-gray-900 font-medium mb-7">Others</h4>
                     <ul class="text-sm  transition-all duration-500">
-                        <li class="mb-6"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Depost Bouns</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Champions</a></li>
-                        <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Trading</a></li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Challenges</a></li>
+                        <li class="mb-4"><a href="./about-us.html" class="text-gray-600 hover:text-gray-900">About
+                                Us</a></li>
+                        <li class="mb-4"><a href="./contactUs.html" class=" text-gray-600 hover:text-gray-900">Contact
+                                Us</a></li>
+                        <li class="mb-4"><a href="javascript:;"
+                                class=" text-gray-600 hover:text-gray-900">Compliance</a></li>
+                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Csr</a></li>
                     </ul>
                 </div>
             </div>
