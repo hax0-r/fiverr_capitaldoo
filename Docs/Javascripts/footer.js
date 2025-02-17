@@ -87,7 +87,7 @@ footer.innerHTML = `
                                 Us</a></li>
                         <li class="mb-4"><a href="./compliance.html"
                                 class=" text-gray-600 hover:text-gray-900">Compliance</a></li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Csr</a></li>
+                        <li><a href="./csr.html" class=" text-gray-600 hover:text-gray-900">Csr</a></li>
                     </ul>
                 </div>
             </div>

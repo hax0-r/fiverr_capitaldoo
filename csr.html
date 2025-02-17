@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="shortcut icon" href="/Docs/Assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Docs/Styles/global.css">
+    <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <div id="navbar"></div>
+
+    <!-- main section -->
+
+    <section class="py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mb-14 text-center">
+                <span
+                    class="py-1 px-4 bg-indigo-100 rounded-full text-xs font-medium text-indigo-600 text-center">CSR</span>
+                <h2 class="text-4xl text-center font-bold text-gray-900 py-5">
+                    OneMission:
+                    1 Lot, 1 Hope
+                </h2>
+                <p class="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
+                    Put a smile on every trade!
+                </p>
+            </div>
+            <div
+                class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-indigo-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-indigo-600">
+                        <svg class="stroke-indigo-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 27.5L15 25M15 25V21.25M15 25L20 27.5M8.75 14.375L12.5998 11.0064C13.1943 10.4862 14.1163 10.6411 14.5083 11.327L15.4917 13.048C15.8837 13.7339 16.8057 13.8888 17.4002 13.3686L21.25 10M2.5 2.5H27.5M26.25 2.5V13.25C26.25 17.0212 26.25 18.9069 25.0784 20.0784C23.9069 21.25 22.0212 21.25 18.25 21.25H11.75C7.97876 21.25 6.09315 21.25 4.92157 20.0784C3.75 18.9069 3.75 17.0212 3.75 13.25V2.5"
+                                stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Register
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Click on “Register” and enter your details to sign up.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-pink-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-pink-600">
+                        <svg class="stroke-pink-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.5 7.5C2.5 4.73858 4.73858 2.5 7.5 2.5C10.2614 2.5 12.5 4.73858 12.5 7.5C12.5 10.2614 10.2614 12.5 7.5 12.5C4.73858 12.5 2.5 10.2614 2.5 7.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M2.5 22.5C2.5 20.143 2.5 18.9645 3.23223 18.2322C3.96447 17.5 5.14298 17.5 7.5 17.5C9.85702 17.5 11.0355 17.5 11.7678 18.2322C12.5 18.9645 12.5 20.143 12.5 22.5C12.5 24.857 12.5 26.0355 11.7678 26.7678C11.0355 27.5 9.85702 27.5 7.5 27.5C5.14298 27.5 3.96447 27.5 3.23223 26.7678C2.5 26.0355 2.5 24.857 2.5 22.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M17.5 7.5C17.5 5.14298 17.5 3.96447 18.2322 3.23223C18.9645 2.5 20.143 2.5 22.5 2.5C24.857 2.5 26.0355 2.5 26.7678 3.23223C27.5 3.96447 27.5 5.14298 27.5 7.5C27.5 9.85702 27.5 11.0355 26.7678 11.7678C26.0355 12.5 24.857 12.5 22.5 12.5C20.143 12.5 18.9645 12.5 18.2322 11.7678C17.5 11.0355 17.5 9.85702 17.5 7.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M17.5 22.5C17.5 19.7386 19.7386 17.5 22.5 17.5C25.2614 17.5 27.5 19.7386 27.5 22.5C27.5 25.2614 25.2614 27.5 22.5 27.5C19.7386 27.5 17.5 25.2614 17.5 22.5Z"
+                                stroke="" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Verify
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Complete the verification process and your account will be activated immediately.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+
+                    <div
+                        class="bg-orange-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-orange-600">
+                        <svg class="stroke-orange-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.4167 12.0833V21.25M5.41667 21.25V20.8333C5.41667 19.262 5.41667 18.4763 5.90482 17.9882C6.39298 17.5 7.17865 17.5 8.75 17.5H22.0833C23.6547 17.5 24.4404 17.5 24.9285 17.9882C25.4167 18.4763 25.4167 19.262 25.4167 20.8333V21.25M15.4167 9.16667C13.8453 9.16667 13.0596 9.16667 12.5715 8.67851C12.0833 8.19036 12.0833 7.40468 12.0833 5.83333C12.0833 4.26198 12.0833 3.47631 12.5715 2.98816C13.0596 2.5 13.8453 2.5 15.4167 2.5C16.988 2.5 17.7737 2.5 18.2618 2.98816C18.75 3.47631 18.75 4.26198 18.75 5.83333C18.75 7.40468 18.75 8.19036 18.2618 8.67851C17.7737 9.16667 16.988 9.16667 15.4167 9.16667ZM7.08333 25.8333C7.08333 26.7538 6.33714 27.5 5.41667 27.5C4.49619 27.5 3.75 26.7538 3.75 25.8333C3.75 24.9129 4.49619 24.1667 5.41667 24.1667C6.33714 24.1667 7.08333 24.9129 7.08333 25.8333ZM17.0833 25.8333C17.0833 26.7538 16.3371 27.5 15.4167 27.5C14.4962 27.5 13.75 26.7538 13.75 25.8333C13.75 24.9129 14.4962 24.1667 15.4167 24.1667C16.3371 24.1667 17.0833 24.9129 17.0833 25.8333ZM27.0833 25.8333C27.0833 26.7538 26.3371 27.5 25.4167 27.5C24.4962 27.5 23.75 26.7538 23.75 25.8333C23.75 24.9129 24.4962 24.1667 25.4167 24.1667C26.3371 24.1667 27.0833 24.9129 27.0833 25.8333Z"
+                                stroke="" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Deposit
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Deposit funds via our fast and secure payment gateways.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-teal-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-teal-600">
+                        <svg class="stroke-teal-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.75 26.25H26.25M6.25 22.875C4.86929 22.875 3.75 21.8676 3.75 20.625V12.75C3.75 11.5074 4.86929 10.5 6.25 10.5C7.63071 10.5 8.75 11.5074 8.75 12.75V20.625C8.75 21.8676 7.63071 22.875 6.25 22.875ZM15 22.875C13.6193 22.875 12.5 21.8676 12.5 20.625V9.375C12.5 8.13236 13.6193 7.125 15 7.125C16.3807 7.125 17.5 8.13236 17.5 9.375V20.625C17.5 21.8676 16.3807 22.875 15 22.875ZM23.75 22.875C22.3693 22.875 21.25 21.8676 21.25 20.625V6C21.25 4.75736 22.3693 3.75 23.75 3.75C25.1307 3.75 26.25 4.75736 26.25 6V20.625C26.25 21.8676 25.1307 22.875 23.75 22.875Z"
+                                stroke="" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Trading
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Kickstart your first global trading journey
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- counter -->
+
+    <main class="relative flex flex-col justify-center bg-slate-50 overflow-hidden md:mt-8">
+        <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-10">
+            <!-- Animated Number Counter -->
+            <section class="grid gap-12 md:grid-cols-3 grid-cols-1 md:gap-16 md:pt-10 py-8">
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17 21L20.3282 16.0077C20.6616 15.5075 20.8284 15.2574 20.9142 14.974C21 14.6906 21 14.39 21 13.7889V9.5C21 8.67157 20.3284 8 19.5 8C18.6716 8 18 8.67157 18 9.5V12.6667C18 13.3275 18 13.6579 17.8974 13.9658C17.7947 14.2737 17.5965 14.538 17.2 15.0667L16.5 16"
+                                stroke="#4f46e5" stroke-width="null" stroke-linecap="round" class="my-path"></path>
+                            <path
+                                d="M7 21L3.6718 16.0077C3.33835 15.5075 3.17163 15.2574 3.08582 14.974C3 14.6906 3 14.39 3 13.7889V9.5C3 8.67157 3.67157 8 4.5 8C5.32843 8 6 8.67157 6 9.5V12.6667C6 13.3275 6 13.6579 6.10263 13.9658C6.20527 14.2737 6.40351 14.538 6.8 15.0667L7.5 16"
+                                stroke="#4f46e5" stroke-width="null" stroke-linecap="round" class="my-path"></path>
+                            <path
+                                d="M14 21.0001V17.1232C14 15.7035 14 14.9937 14.2986 14.5104C14.5496 14.1041 14.9377 13.8011 15.3928 13.6561C15.934 13.4836 16.6227 13.6558 18 14.0001"
+                                stroke="#4f46e5" stroke-width="null" stroke-linecap="round" class="my-path"></path>
+                            <path
+                                d="M10 21.0001V17.1232C10 15.7035 10 14.9937 9.70142 14.5104C9.45039 14.1041 9.06226 13.8011 8.60722 13.6561C8.066 13.4836 7.37733 13.6558 6 14.0001"
+                                stroke="#4f46e5" stroke-width="null" stroke-linecap="round" class="my-path"></path>
+                            <path
+                                d="M8.34887 7.44953C8.40233 7.50558 8.45764 7.55851 8.51459 7.60834L10.5486 9.74053C11.2279 10.4527 11.5676 10.8088 11.9957 10.8088C12.4238 10.8088 12.7635 10.4527 13.4429 9.74053L15.2859 7.80854C15.32 7.77278 15.337 7.75489 15.3525 7.73999C15.368 7.72509 15.4107 7.68742 15.4961 7.61207C15.5501 7.56441 15.6026 7.51393 15.6535 7.46064C16.6216 6.44581 16.6155 4.79413 15.64 3.77149C14.6645 2.74886 13.0889 2.74253 12.1208 3.75736C12.0534 3.82799 11.937 3.82946 11.8696 3.75883C10.9015 2.744 9.32858 2.74752 8.35636 3.76668C7.38414 4.78584 7.38079 6.43471 8.34887 7.44953Z"
+                                stroke="#4f46e5" stroke-width="null" class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class="block text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">$357K </span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Total
+                            donations made
+                        </span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 12C3 11.0572 3 10.5858 3.29289 10.2929C3.58579 10 4.05719 10 5 10C5.94281 10 6.41421 10 6.70711 10.2929C7 10.5858 7 11.0572 7 12V19C7 19.9428 7 20.4142 6.70711 20.7071C6.41421 21 5.94281 21 5 21C4.05719 21 3.58579 21 3.29289 20.7071C3 20.4142 3 19.9428 3 19V12Z"
+                                stroke="#4f46e5" stroke-width="null" class="my-path"></path>
+                            <path
+                                d="M19.9619 15.8933L20.654 11.2976C20.8148 10.2293 20.8953 9.69514 20.5961 9.34747C20.2968 8.99981 19.7566 8.99981 18.6763 8.99981H15.5695C15.0382 8.99981 14.7725 8.99981 14.5674 8.90142C14.3623 8.80299 14.1968 8.63753 14.0984 8.43236C14 8.22728 14 7.96161 14 7.43026C14 5.80513 14 4.99255 13.7027 4.63226C13.4083 4.27558 12.9467 4.10212 12.4903 4.17672C12.0293 4.25208 11.4942 4.8636 10.424 6.08664L7.49485 9.43427C7.25015 9.71393 7.12779 9.85376 7.0639 10.0238C7 10.1939 7 10.3797 7 10.7513V14.9998C7 17.8282 7 19.2425 7.87868 20.1211C8.75736 20.9998 10.1716 20.9998 13 20.9998H14.0288C16.4923 20.9998 17.7241 20.9998 18.5679 20.2736C19.4116 19.5474 19.595 18.3294 19.9619 15.8933Z"
+                                stroke="#4f46e5" stroke-width="null" stroke-linecap="round" class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class="block text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class=""> 50M </span> +
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Benefited
+                            people
+                        </span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 12.5C3 11.1193 4.11929 10 5.5 10C6.88071 10 8 11.1193 8 12.5V13.5C8 14.8807 6.88071 16 5.5 16C4.11929 16 3 14.8807 3 13.5V12.5Z"
+                                stroke="#4f46e5" stroke-width="null" class="my-path"></path>
+                            <path
+                                d="M21 13.5C21 14.8807 19.8807 16 18.5 16C17.1193 16 16 14.8807 16 13.5L16 12.5C16 11.1193 17.1193 10 18.5 10C19.8807 10 21 11.1193 21 12.5V13.5Z"
+                                stroke="#4f46e5" stroke-width="null" class="my-path"></path>
+                            <path
+                                d="M12 19C12 19 12 19 12 19ZM12 19C12.5523 19 13 19.4477 13 20M12 19C11.4477 19 11 19.4477 11 20M13 20C13 20 13 20 13 20ZM13 20C13 20.5523 12.5523 21 12 21M11 20C11 20 11 20 11 20ZM11 20C11 20.5523 11.4477 21 12 21M12 21C12 21 12 21 12 21Z"
+                                stroke="#4f46e5" stroke-width="null" class="my-path"></path>
+                            <path d="M18 10V9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9V10" stroke="#4f46e5"
+                                stroke-width="null" class="my-path"></path>
+                            <path d="M13 20L14 20C16.2091 20 18 18.2091 18 16" stroke="#4f46e5" stroke-width="null"
+                                class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class="block text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">20</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
+                            Supported countries
+                        </span>
+                    </h2>
+                </article>
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- 1 lot trade -->
+
+    <h1 class="mx-auto md:pt-40 pt-20 text-center font-manrope font-bold !leading-normal md:text-4xl text-3xl px-4 text-gray-900 mb-5 md:text-5xl">
+        Every 1 lot traded = 0.01
+        <span class="text-indigo-600">USD donation </span>
+    </h1>
+    <div class="flex items-center justify-center md:mt-10 p-4">
+        <a href="javascript:;"
+            class="w-full md:w-auto mb-14 inline-flex items-center justify-center py-3 px-7 text-base font-semibold text-center text-white rounded-full bg-indigo-600 shadow-xs hover:bg-indigo-700 transition-all duration-500">
+            Join Us!
+            <svg class="ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5"
+                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </a>
+    </div>
+
+
+    <!-- mission -->
+
+    <section class="lg:pt-36 pt-0  p-4 h-full flex items-center justify-center">
+        <div
+            class="rounded-2xl max-w-7xl mx-auto bg-indigo-50 md:px-10 py-10 overflow-hidden m-5 lg:m-0 2xl:py-10 xl:py-10  lg:rounded-tl-2xl lg:rounded-bl-2xl ">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 gap-14  items-center lg:grid-cols-12">
+                    <div class="w-full xl:col-span-6 lg:col-span-6 2xl:-mx-5 xl:-mx-0">
+                        <div
+                            class="flex items-center text-sm font-medium text-gray-500 justify-center lg:justify-start">
+                            Our commitment, be part of it:
+                        </div>
+                        <h1
+                            class="md:pt-8 pt-6 md:pb-5 text-center text-gray-900 font-bold font-manrope md:text-3xl text-2xl lg:text-left leading-[70px]">
+                            <span class="text-indigo-600">Educational </span> Support
+                        </h1>
+                        <p class=" text-gray-500 text-lg text-center lg:text-left">
+                            We actively support children's education projects, aiming to promote the accessibility and
+                            quality of education, creating a better learning environment for the next generation.
+                        </p>
+                        <h1
+                            class="md:pt-8 pt-6 md:pb-5 text-center text-gray-900 font-bold font-manrope md:text-3xl text-2xl lg:text-left leading-[70px]">
+                            <span class="text-indigo-600">Social </span> Responsibility
+                        </h1>
+                        <p class=" text-gray-500 text-lg text-center lg:text-left">
+                            We are deeply committed to community service and public welfare initiatives, responding
+                            swiftly to disasters. Through timely donations and unwavering support, we extend a helping
+                            hand to those in need, embodying our dedication to corporate social responsibility.
+                        </p>
+                        <h1
+                            class="md:pt-8 pt-6 md:pb-5 text-center text-gray-900 font-bold font-manrope md:text-3xl text-2xl lg:text-left leading-[70px]">
+                            <span class="text-indigo-600">Environmental </span> Protection
+                        </h1>
+                        <p class=" text-gray-500 text-lg text-center lg:text-left">
+                            We actively promote sustainable development strategies, reducing carbon emissions and
+                            advocating environmental awareness through various green projects, striving to contribute to
+                            the well-being of our planet.</p>
+
+                    </div>
+                    <div class="w-full xl:col-span-6  lg:col-span-6 block">
+                        <div class="w-full  sm:w-auto lg:w-full">
+                            <img src="https://www.icmarkets.com/assets/images/spread-step-04.webp" alt="Dashboard image"
+                                class="" class="w-full  lg:h-auto ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer -->
+
+    <div id="footer"></div>
+
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="./Docs/Javascripts/global.js"></script>
+    <script src="./Docs/Javascripts/navbar.js"></script>
+    <script src="./Docs/Javascripts/footer.js"></script>
+</body>
+
+</html>
