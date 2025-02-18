@@ -63,7 +63,7 @@ footer.innerHTML = `
                                 Mt5</a></li>
                         <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Metatrader
                                 4</a></li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Metatrader 5</a></li>
+                        <li><a href="./metatrader5.html" class=" text-gray-600 hover:text-gray-900">Metatrader 5</a></li>
                     </ul>
                 </div>
                 <!--End Col-->

@@ -49,12 +49,12 @@ navbar.innerHTML = `
                                 <li><a href="./mt4-vs-mt5.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         mt4-vs-mt5 </a></li>
+                                <li><a href="./metatrader5.html"
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        Metatrader 5 </a></li>
                                 <li><a href=""
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        metatrader5 </a></li>
-                                <li><a href=""
-                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        metatrader4 </a></li>
+                                        Metatrader 4 </a></li>
                             </ul>
                         </div>
                     </div>
