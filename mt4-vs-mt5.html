@@ -26,17 +26,14 @@
     <section class="py-24">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="mb-14 text-center">
-                <span
-                    class="py-1 px-4 bg-indigo-100 rounded-full text-xs font-medium text-indigo-600 text-center">Contact
-                    Us</span>
+                <span class="py-1 px-4 bg-indigo-100 rounded-full text-xs font-medium text-indigo-600 text-center">Mt4
+                    vs Mt5</span>
                 <h2 class="md:text-4xl text-2xl text-center font-bold text-gray-900 py-5">
-                    Top-Class International Customer Service
+                    MT4 vs MT5
 
                 </h2>
                 <p class="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
-                    200+ customer service and 300+ technicians from different countries and regions around the world
-                    provide 24/7 multilingual top service support
-
+                    Learn the differences between MT4 and MT5 and choose the trading platform that suits you best
                 </p>
             </div>
             <div
@@ -123,100 +120,163 @@
         </div>
     </section>
 
-    <!-- contact us -->
+    <!-- sections -->
 
-    <section class="md:py-14 pb-14">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-2 grid-cols-1">
-                <div class="lg:mb-0 mb-10">
-                    <div class="group w-full h-full">
-                        <div class="relative h-full">
-                            <img src="https://pagedone.io/asset/uploads/1696488602.png" alt="ContactUs tailwind section"
-                                class="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover" />
-                            <div class="md:block hidden absolute top-11 left-11 text-white">
+    <div class="flex md:flex-row  p-4 flex-col max-w-7xl mx-auto w-full">
+        <!-- Left Sidebar -->
+        <div class="md:w-1/4 bg-white p-2 border rounded-lg">
+            <ul class="space-y-4">
+                <li class="tab cursor-pointer p-4 bg-indigo-50" onclick="switchTab('market')">Market</li>
+                <li class="tab cursor-pointer p-4" onclick="switchTab('trading_model')">Trading Model</li>
+                <li class="tab cursor-pointer p-4" onclick="switchTab('order_execution')">Order Execution</li>
+                <li class="tab cursor-pointer p-4" onclick="switchTab('chart_indicators')">Chart Indicators</li>
+                <li class="tab cursor-pointer p-4" onclick="switchTab('additional_features')">Additional Features</li>
+                <li class="tab cursor-pointer p-4" onclick="switchTab('automatic_trading')">Automatic Trading</li>
+                <li class="tab cursor-pointer p-4" onclick="switchTab('system_config')">System Configuration</li>
+            </ul>
+        </div>
 
-                                <h1 class="font-manrope pb-3 text-4xl font-bold leading-10 ">
-                                    Contact us</h1>
-                                <p>You may also leave your contact information here, and a CapitalDoo representative
-                                    will contact you within 1 working day.
+        <!-- Right Content -->
+        <div class="flex-1 p-6">
+            <div id="market" class="tab-content fadeIn">
+                <img src="https://images.unsplash.com/photo-1629339941379-da30348cdba6?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Market Image" class="rounded-lg shadow-md h-60 w-full object-cover">
+                <table class="w-full mt-4 bg-white shadow-lg rounded-lg">
+                    <thead>
+                        <tr class="bg-indigo-600 text-white">
+                            <th class="p-4">Feature</th>
+                            <th class="p-4">MT5</th>
+                            <th class="p-4">MT4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-4">Spreads</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Spreads</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Lot Size</td>
+                            <td class="p-4">[object Object]</td>
+                            <td class="p-4">1024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-                                </p>
-                            </div>
-                            <div class="absolute bottom-0 w-full lg:p-11 p-5">
-                                <div class="bg-white rounded-lg p-6 block">
-                                    <a href="javascript:;" class="flex items-center mb-6">
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M22.3092 18.3098C22.0157 18.198 21.8689 18.1421 21.7145 18.1287C21.56 18.1154 21.4058 18.1453 21.0975 18.205L17.8126 18.8416C17.4392 18.9139 17.2525 18.9501 17.0616 18.9206C16.8707 18.891 16.7141 18.8058 16.4008 18.6353C13.8644 17.2551 12.1853 15.6617 11.1192 13.3695C10.9964 13.1055 10.935 12.9735 10.9133 12.8017C10.8917 12.6298 10.9218 12.4684 10.982 12.1456L11.6196 8.72559C11.6759 8.42342 11.7041 8.27233 11.6908 8.12115C11.6775 7.96998 11.6234 7.82612 11.5153 7.5384L10.6314 5.18758C10.37 4.49217 10.2392 4.14447 9.95437 3.94723C9.6695 3.75 9.29804 3.75 8.5551 3.75H5.85778C4.58478 3.75 3.58264 4.8018 3.77336 6.06012C4.24735 9.20085 5.64674 14.8966 9.73544 18.9853C14.0295 23.2794 20.2151 25.1426 23.6187 25.884C24.9335 26.1696 26.0993 25.1448 26.0993 23.7985V21.2824C26.0993 20.5428 26.0993 20.173 25.9034 19.8888C25.7076 19.6046 25.362 19.4729 24.6708 19.2096L22.3092 18.3098Z"
-                                                stroke="#4F46E5" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                        <h5 class="text-black text-base font-normal leading-6 ml-5">+44 74 5388 9527
-                                            <span class="text-gray-500 text-xs">Europe </span>
-                                        </h5>
-                                    </a>
-                                    <a href="javascript:;" class="flex items-center mb-6">
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M22.3092 18.3098C22.0157 18.198 21.8689 18.1421 21.7145 18.1287C21.56 18.1154 21.4058 18.1453 21.0975 18.205L17.8126 18.8416C17.4392 18.9139 17.2525 18.9501 17.0616 18.9206C16.8707 18.891 16.7141 18.8058 16.4008 18.6353C13.8644 17.2551 12.1853 15.6617 11.1192 13.3695C10.9964 13.1055 10.935 12.9735 10.9133 12.8017C10.8917 12.6298 10.9218 12.4684 10.982 12.1456L11.6196 8.72559C11.6759 8.42342 11.7041 8.27233 11.6908 8.12115C11.6775 7.96998 11.6234 7.82612 11.5153 7.5384L10.6314 5.18758C10.37 4.49217 10.2392 4.14447 9.95437 3.94723C9.6695 3.75 9.29804 3.75 8.5551 3.75H5.85778C4.58478 3.75 3.58264 4.8018 3.77336 6.06012C4.24735 9.20085 5.64674 14.8966 9.73544 18.9853C14.0295 23.2794 20.2151 25.1426 23.6187 25.884C24.9335 26.1696 26.0993 25.1448 26.0993 23.7985V21.2824C26.0993 20.5428 26.0993 20.173 25.9034 19.8888C25.7076 19.6046 25.362 19.4729 24.6708 19.2096L22.3092 18.3098Z"
-                                                stroke="#4F46E5" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                        <h5 class="text-black text-base font-normal leading-6 ml-5">+66 020260620 <span
-                                                class="text-gray-500 text-xs">Asia </span></h5>
-                                    </a>
-                                    <a href="javascript:;" class="flex items-center mb-6">
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M2.81501 8.75L10.1985 13.6191C12.8358 15.2015 14.1544 15.9927 15.6032 15.9582C17.0519 15.9237 18.3315 15.0707 20.8905 13.3647L27.185 8.75M12.5 25H17.5C22.214 25 24.5711 25 26.0355 23.5355C27.5 22.0711 27.5 19.714 27.5 15C27.5 10.286 27.5 7.92893 26.0355 6.46447C24.5711 5 22.214 5 17.5 5H12.5C7.78595 5 5.42893 5 3.96447 6.46447C2.5 7.92893 2.5 10.286 2.5 15C2.5 19.714 2.5 22.0711 3.96447 23.5355C5.42893 25 7.78595 25 12.5 25Z"
-                                                stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
-                                        </svg>
-                                        <h5 class="text-black text-base font-normal leading-6 ml-5">
-                                            en.sales@capitaldoo.com <span class="text-gray-500 text-xs">Account Manager
-                                            </span></h5>
-                                    </a>
-                                    <a href="javascript:;" class="flex items-center mb-6">
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M2.81501 8.75L10.1985 13.6191C12.8358 15.2015 14.1544 15.9927 15.6032 15.9582C17.0519 15.9237 18.3315 15.0707 20.8905 13.3647L27.185 8.75M12.5 25H17.5C22.214 25 24.5711 25 26.0355 23.5355C27.5 22.0711 27.5 19.714 27.5 15C27.5 10.286 27.5 7.92893 26.0355 6.46447C24.5711 5 22.214 5 17.5 5H12.5C7.78595 5 5.42893 5 3.96447 6.46447C2.5 7.92893 2.5 10.286 2.5 15C2.5 19.714 2.5 22.0711 3.96447 23.5355C5.42893 25 7.78595 25 12.5 25Z"
-                                                stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
-                                        </svg>
-                                        <h5 class="text-black text-base font-normal leading-6 ml-5">
-                                            support@capitaldoo.com <span class="text-gray-500 text-xs">Technical Support
-                                            </span></h5>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="trading_model" class="tab-content fadeIn hidden">Trading Model Content</div>
+            <div id="order_execution" class="tab-content fadeIn hidden">Order Execution Content</div>
+            <div id="chart_indicators" class="tab-content fadeIn hidden">Chart Indicators Content</div>
+            <div id="additional_features" class="tab-content fadeIn hidden">Additional Features Content</div>
+            <div id="automatic_trading" class="tab-content fadeIn hidden">Automatic Trading Content</div>
+            <div id="system_config" class="tab-content fadeIn hidden">System Configuration Content</div>
+        </div>
+    </div>
 
-                <div class="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl">
-                    <h2 class="text-indigo-600 font-manrope md:text-4xl text-3xl font-semibold leading-10 mb-11">Send Us A Message
-                    </h2>
-                    <input type="text"
-                        class="w-full h-12 text-gray-600 placeholder-gray-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-xl border border-gray-200 focus:outline-none pl-4 mb-5"
-                        placeholder="Surname">
-                    <input type="text"
-                        class="w-full h-12 text-gray-600 placeholder-gray-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-xl border border-gray-200 focus:outline-none pl-4 mb-5"
-                        placeholder="Name">
-                    <input type="text"
-                        class="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-xl border border-gray-200 focus:outline-none pl-4 mb-5"
-                        placeholder="Email">
-                    <input type="text"
-                        class="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-xl border border-gray-200 focus:outline-none pl-4 mb-5"
-                        placeholder="Phone">
-                    <textarea rows="6" type="text"
-                        class="text-gray-600 w-full pt-3 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-xl border border-gray-200 focus:outline-none pl-4 mb-5"
-                        placeholder="Message"></textarea>
-                    <button
-                        class="w-full h-12 text-white text-base font-semibold leading-6 rounded-xl transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm">Send</button>
+    <!-- A Variety of Steadfast Trading Software-->
+
+
+    <div class="md:mt-20">
+        <div class="mx-auto max-w-7xl px-5 pt-16 md:px-10 md:pt-16  ">
+            <div class="mx-auto w-full max-w-5xl text-center">
+                <h2 class="text-2xl font-bold  no:text-white md:text-4xl text-gray-900">A Variety of Steadfast Trading
+                    Software
+
+                </h2>
+                <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
+                    <p class="text-lg text-gray-600">
+                        Kickstart Your Trading Journey with Multiple Popular Softwares
+                    </p>
                 </div>
             </div>
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 md:grid-cols-4 ">
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <img src="https://capitaldoo.com/trading-platform/mt4-vs-mt5/images/icon-tools-mt4.svg" class="mb-3"
+                        alt="">
+                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        MetaTrader 4</h4>
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> The Most
+                        Popular Trading Platform
+                    </p>
+
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <img src="https://capitaldoo.com/trading-platform/mt4-vs-mt5/images/icon-tools-mt4.svg" class="mb-3"
+                        alt="">
+                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        MetaTrader 5</h4>
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> A
+                        Multi-Asset Platform
+                    </p>
+
+                </div>
+
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <img src="https://capitaldoo.com/trading-platform/mt4-vs-mt5/images/icon-tools-intrade.svg"
+                        class="mb-3" alt="">
+                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        CapitalDoo InTrade</h4>
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4">
+                        Professional Trading Platform for the Mobile Centrics
+
+                    </p>
+
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <img src="https://capitaldoo.com/trading-platform/mt4-vs-mt5/images/icon-tools-fixapi.svg"
+                        class="mb-9" alt="">
+                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        FIX API 4.4</h4>
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4">
+                        The De Facto Communication Standard for Financial Markets
+
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- banner -->
+
+    <section class="bg-white md:pt-8 pt-5">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-500 sm:text-lg ">
+                <h2 class="mb-4 md:text-4xl text-3xl md;tracking-tight leading-normal font-semibold text-gray-900  ">you
+                    can invest in Securities</h2>
+                <p class="mb-6">At CapitalDoo, you can invest in Securities, Futures, Forex, Precious Metals,
+                    Commodities and Stock Indices with just one integrated account. Indulge in trading over 10,000
+                    financial products at a glance, easily accessing 6 major markets and seize every global opportunity.
+                </p>
+                <div class="flex items-center gap-12">
+                    <p>Trading Products <span class="block font-semibold text-black">10,000+</span></p>
+                    <p>Client Worldwide
+                        <span class="block font-semibold text-black">400,000+
+
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
+                    alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+                    alt="office content 2">
+            </div>
+        </div>
     </section>
 
     <!-- counter -->
@@ -366,35 +426,31 @@
 
     </main>
 
-    <!-- banner -->
+    <!-- Subscribe -->
 
-    <section class="bg-white ">
-        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-            <div class="font-light text-gray-500 sm:text-lg ">
-                <h2 class="mb-4 md:text-4xl text-3xl md:tracking-tight leading-normal font-semibold text-gray-900  ">you can invest in Securities</h2>
-                <p class="mb-6">At CapitalDoo, you can invest in Securities, Futures, Forex, Precious Metals,
-                    Commodities and Stock Indices with just one integrated account. Indulge in trading over 10,000
-                    financial products at a glance, easily accessing 6 major markets and seize every global opportunity.
-                </p>
-                <div class="flex items-center gap-12">
-                    <p>Trading Products <span class="block font-semibold text-black">10,000+</span></p>
-                    <p>Client Worldwide
-                        <span class="block font-semibold text-black">400,000+
-
-                        </span>
-                    </p>
-                </div>
-            </div>
-            <div class="grid grid-cols-2 gap-4 mt-8">
-                <img class="w-full rounded-lg"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-                    alt="office content 1">
-                <img class="mt-4 w-full lg:mt-10 rounded-lg"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-                    alt="office content 2">
+    <div class="w-full grid gap-7 p-4 max-w-4xl mx-auto md:mt-20 mt-10">
+        <div class="grid gap-3">
+            <h2 class="text-center text-gray-900 md:text-3xl text-2xl font-bold font-manrope leading-10">Ready to
+                Superpower Your
+                Ideas?</h2>
+            <p class="xl:max-w-2xl w-full mx-auto text-center text-gray-500 text-base font-normal leading-relaxed">Lorem
+                Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's
+                standard.</p>
+        </div>
+        <div class="grid gap-2.5">
+            <h2 class="text-center text-gray-500 text-sm font-semibold leading-snug">Subscribe to Update</h2>
+            <div
+                class="pl-7 pr-1.5 py-1.5 rounded-full border border-gray-300 justify-between items-center inline-flex">
+                <input
+                    class="focus:outline-none text-black w-full text-opacity-20 text-base font-normal leading-relaxed"
+                    placeholder="Enter email">
+                <button
+                    class="px-5 py-3 bg-indigo-600 hover:bg-indigo-700 transition-all duration-500 rounded-full shadow-sm">
+                    <span class="px-2 text-white text-base font-semibold">Subscribe</span>
+                </button>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- footer -->
 
@@ -405,6 +461,19 @@
     <script src="./Docs/Javascripts/global.js"></script>
     <script src="./Docs/Javascripts/navbar.js"></script>
     <script src="./Docs/Javascripts/footer.js"></script>
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.add('hidden');
+            });
+            document.getElementById(tabId).classList.remove('hidden');
+
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('bg-indigo-50');
+            });
+            event.target.classList.add('bg-indigo-50');
+        }
+    </script>
 </body>
 
 </html>

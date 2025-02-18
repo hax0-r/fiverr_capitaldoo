@@ -58,8 +58,8 @@ footer.innerHTML = `
                         </li>
                         <li class="mb-4"><a href="./funding.html" class=" text-gray-600 hover:text-gray-900">Funding</a>
                         </li>
-                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">vps</a></li>
-                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Mt4 vs
+                        <li class="mb-4"><a href="./vps.html" class=" text-gray-600 hover:text-gray-900">vps</a></li>
+                        <li class="mb-4"><a href="./mt4-vs-mt5.html" class=" text-gray-600 hover:text-gray-900">Mt4 vs
                                 Mt5</a></li>
                         <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Metatrader
                                 4</a></li>

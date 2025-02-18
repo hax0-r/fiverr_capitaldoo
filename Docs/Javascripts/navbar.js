@@ -43,10 +43,10 @@ navbar.innerHTML = `
                                 <li><a href="./pricing.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         pricing-model </a></li>
-                                <li><a href=""
+                                <li><a href="./vps.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         vps </a></li>
-                                <li><a href=""
+                                <li><a href="./mt4-vs-mt5.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         mt4-vs-mt5 </a></li>
                                 <li><a href=""
@@ -189,10 +189,10 @@ navbar.innerHTML = `
                                     <li><a href="./pricing.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             Pricing Model </a></li>
-                                    <li><a href=""
+                                    <li><a href="./mt4-vs-mt5.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             Mt4 vs Mt5 </a></li>
-                                    <li><a href=""
+                                    <li><a href="./vps.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             Vps </a></li>
                                     <li><a href=""
