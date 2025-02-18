@@ -52,7 +52,7 @@ navbar.innerHTML = `
                                 <li><a href="./metatrader5.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         Metatrader 5 </a></li>
-                                <li><a href=""
+                                <li><a href="./metatrader4.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         Metatrader 4 </a></li>
                             </ul>
@@ -195,7 +195,7 @@ navbar.innerHTML = `
                                     <li><a href="./vps.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             Vps </a></li>
-                                    <li><a href=""
+                                    <li><a href="./metatrader4.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             Metatrader 4 </a></li>
                                     <li><a href=""
