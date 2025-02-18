@@ -70,9 +70,9 @@ footer.innerHTML = `
                 <div class="lg:mx-auto text-left ">
                     <h4 class="text-lg text-gray-900 font-medium mb-7">Partnership</h4>
                     <ul class="text-sm  transition-all duration-500">
-                        <li class="mb-4"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Affiliates</a>
+                        <li class="mb-4"><a href="./affiliates.html" class="text-gray-600 hover:text-gray-900">Affiliates</a>
                         </li>
-                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Ibs 5</a>
+                        <li class="mb-4"><a href="./ibs.html" class=" text-gray-600 hover:text-gray-900">Ibs 5</a>
                         </li>
                         </li>
                     </ul>

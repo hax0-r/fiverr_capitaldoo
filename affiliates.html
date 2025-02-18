@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="shortcut icon" href="/Docs/Assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Docs/Styles/global.css">
+    <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <div id="navbar"></div>
+
+    <!-- main section -->
+
+    <section class="py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mb-14 text-center">
+                <span
+                    class="py-1 px-4 bg-indigo-100 rounded-full text-xs font-medium text-indigo-600 text-center">Affiliates</span>
+                <h2 class="md:text-4xl text-2xl text-center font-bold text-gray-900 py-5">
+                    CPA Affiliate Program
+                </h2>
+                <p class="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
+                    Super charge your earning potential with up to $800 CPA!</p>
+            </div>
+            <div
+                class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-indigo-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-indigo-600">
+                        <svg class="stroke-indigo-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 27.5L15 25M15 25V21.25M15 25L20 27.5M8.75 14.375L12.5998 11.0064C13.1943 10.4862 14.1163 10.6411 14.5083 11.327L15.4917 13.048C15.8837 13.7339 16.8057 13.8888 17.4002 13.3686L21.25 10M2.5 2.5H27.5M26.25 2.5V13.25C26.25 17.0212 26.25 18.9069 25.0784 20.0784C23.9069 21.25 22.0212 21.25 18.25 21.25H11.75C7.97876 21.25 6.09315 21.25 4.92157 20.0784C3.75 18.9069 3.75 17.0212 3.75 13.25V2.5"
+                                stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Register
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Click on “Register” and enter your details to sign up.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-pink-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-pink-600">
+                        <svg class="stroke-pink-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.5 7.5C2.5 4.73858 4.73858 2.5 7.5 2.5C10.2614 2.5 12.5 4.73858 12.5 7.5C12.5 10.2614 10.2614 12.5 7.5 12.5C4.73858 12.5 2.5 10.2614 2.5 7.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M2.5 22.5C2.5 20.143 2.5 18.9645 3.23223 18.2322C3.96447 17.5 5.14298 17.5 7.5 17.5C9.85702 17.5 11.0355 17.5 11.7678 18.2322C12.5 18.9645 12.5 20.143 12.5 22.5C12.5 24.857 12.5 26.0355 11.7678 26.7678C11.0355 27.5 9.85702 27.5 7.5 27.5C5.14298 27.5 3.96447 27.5 3.23223 26.7678C2.5 26.0355 2.5 24.857 2.5 22.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M17.5 7.5C17.5 5.14298 17.5 3.96447 18.2322 3.23223C18.9645 2.5 20.143 2.5 22.5 2.5C24.857 2.5 26.0355 2.5 26.7678 3.23223C27.5 3.96447 27.5 5.14298 27.5 7.5C27.5 9.85702 27.5 11.0355 26.7678 11.7678C26.0355 12.5 24.857 12.5 22.5 12.5C20.143 12.5 18.9645 12.5 18.2322 11.7678C17.5 11.0355 17.5 9.85702 17.5 7.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M17.5 22.5C17.5 19.7386 19.7386 17.5 22.5 17.5C25.2614 17.5 27.5 19.7386 27.5 22.5C27.5 25.2614 25.2614 27.5 22.5 27.5C19.7386 27.5 17.5 25.2614 17.5 22.5Z"
+                                stroke="" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Verify
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Complete the verification process and your account will be activated immediately.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+
+                    <div
+                        class="bg-orange-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-orange-600">
+                        <svg class="stroke-orange-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.4167 12.0833V21.25M5.41667 21.25V20.8333C5.41667 19.262 5.41667 18.4763 5.90482 17.9882C6.39298 17.5 7.17865 17.5 8.75 17.5H22.0833C23.6547 17.5 24.4404 17.5 24.9285 17.9882C25.4167 18.4763 25.4167 19.262 25.4167 20.8333V21.25M15.4167 9.16667C13.8453 9.16667 13.0596 9.16667 12.5715 8.67851C12.0833 8.19036 12.0833 7.40468 12.0833 5.83333C12.0833 4.26198 12.0833 3.47631 12.5715 2.98816C13.0596 2.5 13.8453 2.5 15.4167 2.5C16.988 2.5 17.7737 2.5 18.2618 2.98816C18.75 3.47631 18.75 4.26198 18.75 5.83333C18.75 7.40468 18.75 8.19036 18.2618 8.67851C17.7737 9.16667 16.988 9.16667 15.4167 9.16667ZM7.08333 25.8333C7.08333 26.7538 6.33714 27.5 5.41667 27.5C4.49619 27.5 3.75 26.7538 3.75 25.8333C3.75 24.9129 4.49619 24.1667 5.41667 24.1667C6.33714 24.1667 7.08333 24.9129 7.08333 25.8333ZM17.0833 25.8333C17.0833 26.7538 16.3371 27.5 15.4167 27.5C14.4962 27.5 13.75 26.7538 13.75 25.8333C13.75 24.9129 14.4962 24.1667 15.4167 24.1667C16.3371 24.1667 17.0833 24.9129 17.0833 25.8333ZM27.0833 25.8333C27.0833 26.7538 26.3371 27.5 25.4167 27.5C24.4962 27.5 23.75 26.7538 23.75 25.8333C23.75 24.9129 24.4962 24.1667 25.4167 24.1667C26.3371 24.1667 27.0833 24.9129 27.0833 25.8333Z"
+                                stroke="" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Deposit
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Deposit funds via our fast and secure payment gateways.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-teal-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-teal-600">
+                        <svg class="stroke-teal-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.75 26.25H26.25M6.25 22.875C4.86929 22.875 3.75 21.8676 3.75 20.625V12.75C3.75 11.5074 4.86929 10.5 6.25 10.5C7.63071 10.5 8.75 11.5074 8.75 12.75V20.625C8.75 21.8676 7.63071 22.875 6.25 22.875ZM15 22.875C13.6193 22.875 12.5 21.8676 12.5 20.625V9.375C12.5 8.13236 13.6193 7.125 15 7.125C16.3807 7.125 17.5 8.13236 17.5 9.375V20.625C17.5 21.8676 16.3807 22.875 15 22.875ZM23.75 22.875C22.3693 22.875 21.25 21.8676 21.25 20.625V6C21.25 4.75736 22.3693 3.75 23.75 3.75C25.1307 3.75 26.25 4.75736 26.25 6V20.625C26.25 21.8676 25.1307 22.875 23.75 22.875Z"
+                                stroke="" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Trading
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Kickstart your first global trading journey
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Nenifits -->
+
+    <section class="lg:pt-20 pt-0  lg:px-8 h-full">
+        <div
+            class="rounded-2xl bg-indigo-50 pt-8 overflow-hidden m-5 lg:m-0 2xl:py-16 xl:py-8 relative lg:rounded-tl-2xl lg:rounded-bl-2xl ">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 gap-14  items-center lg:grid-cols-12">
+                    <div class="w-full xl:col-span-6 lg:col-span-6 2xl:-mx-5 xl:-mx-0">
+                        <div
+                            class="flex items-center text-sm font-medium text-gray-500 justify-center lg:justify-start">
+                            <span class="bg-indigo-600 py-1 px-3 rounded-2xl text-xs font-medium text-white mr-3 ">They
+                                join, you Earn!
+                            </span>
+                        </div>
+                        <h1
+                            class="py-8 text-center text-gray-900 font-bold font-manrope md:text-4xl text-3xl lg:text-left md:leading-[70px]">
+                            Benefit from our Exclusive <span class="text-indigo-600">Payouts & Uncapped</span>
+                            Commissions
+                        </h1>
+                        <p class=" text-gray-500 text-lg text-center lg:text-left">
+                            This is not just another Affiliate program! Partner with an ever-growing global broker and
+                            get paid for each trader that registers with us. It is that easy and straightforward!
+                            <br><br>
+                            Our affiliate program is perfect for trading coaches, website owners, social media
+                            influencers, affiliate marketers, and SEO professionals alike. Don't miss out on the chance
+                            to monetize your traffic with some of the industry’s most popular commission and payout
+                            structures.
+                        </p>
+                    </div>
+                    <div class="w-full xl:col-span-6  lg:col-span-6 block">
+                        <div class="w-full  sm:w-auto lg:w-full">
+                            <img src="https://direct-website.azureedge.net/assets/img/svelte-home/indices/indices@3x.webp"
+                                alt="Dashboard image"
+                                class="rounded-3xl md:max-w-[50%] w-full object-cover mx-auto lg:absolute right-0 bottom-0"
+                                class="w-full  lg:h-auto ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- cards -->
+
+
+    <div class="md:mt-20">
+        <div class="mx-auto max-w-7xl px-5 py-16 md:px-10 md:py-16  ">
+            <div class="mx-auto w-full max-w-3xl text-center">
+                <h2 class="text-2xl font-bold !leading-normal no:text-white md:text-3xl text-gray-900">Access High
+                    Coverting Tools
+                    to Expand your Network
+                </h2>
+            </div>
+            <div class="grid grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-8 md:grid-cols-4 md:pt-20 pt-10 ">
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <div class=" mb-6 mx-auto flex items-center justify-center">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 10.5C3 10.0341 3 9.80109 3.07612 9.61732C3.17761 9.37229 3.37229 9.17761 3.61732 9.07612C3.80109 9 4.03406 9 4.5 9C4.96594 9 5.19891 9 5.38268 9.07612C5.62771 9.17761 5.82239 9.37229 5.92388 9.61732C6 9.80109 6 10.0341 6 10.5C6 10.9659 6 11.1989 5.92388 11.3827C5.82239 11.6277 5.62771 11.8224 5.38268 11.9239C5.19891 12 4.96594 12 4.5 12C4.03406 12 3.80109 12 3.61732 11.9239C3.37229 11.8224 3.17761 11.6277 3.07612 11.3827C3 11.1989 3 10.9659 3 10.5Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M18 10.5C18 10.0341 18 9.80109 18.0761 9.61732C18.1776 9.37229 18.3723 9.17761 18.6173 9.07612C18.8011 9 19.0341 9 19.5 9C19.9659 9 20.1989 9 20.3827 9.07612C20.6277 9.17761 20.8224 9.37229 20.9239 9.61732C21 9.80109 21 10.0341 21 10.5C21 10.9659 21 11.1989 20.9239 11.3827C20.8224 11.6277 20.6277 11.8224 20.3827 11.9239C20.1989 12 19.9659 12 19.5 12C19.0341 12 18.8011 12 18.6173 11.9239C18.3723 11.8224 18.1776 11.6277 18.0761 11.3827C18 11.1989 18 10.9659 18 10.5Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M10.5 3.5C10.5 3.03406 10.5 2.80109 10.5761 2.61732C10.6776 2.37229 10.8723 2.17761 11.1173 2.07612C11.3011 2 11.5341 2 12 2C12.4659 2 12.6989 2 12.8827 2.07612C13.1277 2.17761 13.3224 2.37229 13.4239 2.61732C13.5 2.80109 13.5 3.03406 13.5 3.5C13.5 3.96594 13.5 4.19891 13.4239 4.38268C13.3224 4.62771 13.1277 4.82239 12.8827 4.92388C12.6989 5 12.4659 5 12 5C11.5341 5 11.3011 5 11.1173 4.92388C10.8723 4.82239 10.6776 4.62771 10.5761 4.38268C10.5 4.19891 10.5 3.96594 10.5 3.5Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M16 13.9998V17.9998C16 19.8854 16 20.8282 15.4142 21.414C14.8284 21.9998 13.8856 21.9998 12 21.9998C10.1144 21.9998 9.17157 21.9998 8.58579 21.414C8 20.8282 8 19.8854 8 17.9998V13.9998M16 13.9998L13.5617 10.952C12.841 10.051 12.4806 9.60059 12 9.60059C11.5194 9.60059 11.159 10.051 10.4383 10.952L8 13.9998M16 13.9998L13.7889 15.1054C12.911 15.5443 12.4721 15.7637 12 15.7637C11.5279 15.7637 11.089 15.5443 10.2111 15.1054L8 13.9998"
+                                stroke="#4f46e5" stroke-width="1.2" stroke-linejoin="round" class="my-path"></path>
+                            <path d="M10.5 4.5L5.5 9.5" stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path d="M13.5 4.5L18.5 9.5" stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h4
+                        class="text-center md:text-lg font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        High converting, marketing tools</h4>
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <div class=" mb-6 mx-auto flex items-center justify-center">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 7C3 5.11438 3 4.17157 3.58579 3.58579C4.17157 3 5.11438 3 7 3H17C18.8856 3 19.8284 3 20.4142 3.58579C21 4.17157 21 5.11438 21 7V17C21 18.8856 21 19.8284 20.4142 20.4142C19.8284 21 18.8856 21 17 21H7C5.11438 21 4.17157 21 3.58579 20.4142C3 19.8284 3 18.8856 3 17V7Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M8 10C8 9.06812 8 8.60218 8.15224 8.23463C8.35523 7.74458 8.74458 7.35523 9.23463 7.15224C9.60218 7 10.0681 7 11 7H13C13.9319 7 14.3978 7 14.7654 7.15224C15.2554 7.35523 15.6448 7.74458 15.8478 8.23463C16 8.60218 16 9.06812 16 10C16 10.9319 16 11.3978 15.8478 11.7654C15.6448 12.2554 15.2554 12.6448 14.7654 12.8478C14.3978 13 13.9319 13 13 13H11C10.0681 13 9.60218 13 9.23463 12.8478C8.74458 12.6448 8.35523 12.2554 8.15224 11.7654C8 11.3978 8 10.9319 8 10Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M3 19C3 17.8954 3.89543 17 5 17H21C21 18.8856 21 19.8284 20.4142 20.4142C19.8284 21 18.8856 21 17 21H5C3.89543 21 3 20.1046 3 19Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h4
+                        class="text-center md:text-lg font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        eBooks and brand guidelines
+                    </h4>
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <div class=" mb-6 mx-auto flex items-center justify-center">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3L21 3" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path
+                                d="M4 3H20V13C20 14.8856 20 15.8284 19.4142 16.4142C18.8284 17 17.8856 17 16 17H8C6.11438 17 5.17157 17 4.58579 16.4142C4 15.8284 4 14.8856 4 13V3Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path d="M12 17V21M12 21H8M12 21H16" stroke="#4f46e5" stroke-width="1.2"
+                                stroke-linecap="round" class="my-path"></path>
+                            <path d="M8 7L8 13" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M12 10V13" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M16 8V13" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h4
+                        class="text-center md:text-lg font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        Campaign and competition banners</h4>
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <div class=" mb-6 mx-auto flex items-center justify-center">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8 20.0024V15.0024M8 20.0024C8 20.5547 8.44772 21.0024 9 21.0024H15C15.5523 21.0024 16 20.5547 16 20.0024M8 20.0024H3C2.44772 20.0024 2 19.5547 2 19.0024V15.0024C2 13.3456 3.34315 12.0024 5 12.0024C6.65685 12.0024 8 13.3456 8 15.0024M16 20.0024V15.0024M16 20.0024H21C21.5523 20.0024 22 19.5547 22 19.0024V15.0024C22 13.3456 20.6569 12.0024 19 12.0024C17.3431 12.0024 16 13.3456 16 15.0024M16 15.0024C16 13.3456 14.6569 12.0024 13 12.0024H11C9.34315 12.0024 8 13.3456 8 15.0024M15 6.00244C15 7.6593 13.6569 9.00244 12 9.00244C10.3431 9.00244 9 7.6593 9 6.00244C9 4.34559 10.3431 3.00244 12 3.00244C13.6569 3.00244 15 4.34559 15 6.00244ZM6.5 7.50244C6.5 8.33087 5.82843 9.00244 5 9.00244C4.17157 9.00244 3.5 8.33087 3.5 7.50244C3.5 6.67401 4.17157 6.00244 5 6.00244C5.82843 6.00244 6.5 6.67401 6.5 7.50244ZM20.5 7.50244C20.5 8.33087 19.8284 9.00244 19 9.00244C18.1716 9.00244 17.5 8.33087 17.5 7.50244C17.5 6.67401 18.1716 6.00244 19 6.00244C19.8284 6.00244 20.5 6.67401 20.5 7.50244Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h4
+                        class="text-center md:text-lg font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        User-friendly Affiliate Portal</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- counter -->
+
+    <main class="relative flex flex-col justify-center bg-slate-50 overflow-hidden md:mt-14">
+        <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-10">
+            <h2 class="p-4 pt-8 text-center text-gray-900 font-bold font-manrope md:text-4xl text-3xl md:pt-28 ">
+                Our <span class="text-indigo-600">Success Story </span> in Numbers</h2>
+            <!-- Animated Number Counter -->
+            <section class="grid gap-12 md:grid-cols-3 grid-cols-1 md:gap-16 md:pt-16 py-8">
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="19">
+                            <defs>
+                                <linearGradient id="icon2-a" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#A5B4FC" />
+                                    <stop offset="100%" stop-color="#4F46E5" />
+                                </linearGradient>
+                                <linearGradient id="icon2-b" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#E0E7FF" />
+                                    <stop offset="100%" stop-color="#A5B4FC" />
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <path fill="url(#icon2-a)"
+                                    d="M5.5 0a5.5 5.5 0 0 0 0 11c.159 0 .314-.01.469-.024a15.896 15.896 0 0 1-2.393 6.759A.5.5 0 0 0 4 18.5h1a.5.5 0 0 0 .362-.155C7.934 15.64 11 11.215 11 5.5A5.506 5.506 0 0 0 5.5 0Z" />
+                                <path fill="url(#icon2-b)"
+                                    d="M18.5 0a5.5 5.5 0 0 0 0 11c.159 0 .314-.01.469-.024a15.896 15.896 0 0 1-2.393 6.759.5.5 0 0 0 .424.765h1a.5.5 0 0 0 .363-.155C20.934 15.64 24 11.215 24 5.5A5.506 5.506 0 0 0 18.5 0Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class="block text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">$2.2M </span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">highest
+                            Partner payout</span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="20">
+                            <defs>
+                                <linearGradient id="icon1-a" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#A5B4FC" />
+                                    <stop offset="100%" stop-color="#4F46E5" />
+                                </linearGradient>
+                                <linearGradient id="icon1-b" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#EEF2FF" />
+                                    <stop offset="100%" stop-color="#C7D2FE" />
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <path fill="url(#icon1-a)"
+                                    d="M20.625 0H9.375a9.375 9.375 0 0 0 0 18.75h11.25a9.375 9.375 0 0 0 0-18.75Z"
+                                    transform="translate(.885 .885)" />
+                                <path fill="url(#icon1-b)"
+                                    d="M9.375 17.5A8.125 8.125 0 0 1 1.25 9.375 8.125 8.125 0 0 1 9.375 1.25 8.125 8.125 0 0 1 17.5 9.375 8.125 8.125 0 0 1 9.375 17.5Z"
+                                    transform="translate(.885 .885)" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class="block text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">25,000</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">total
+                            number of Partners</span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                            <defs>
+                                <radialGradient id="icon3-a" cx="68.15%" cy="27.232%" r="67.641%" fx="68.15%"
+                                    fy="27.232%">
+                                    <stop offset="0%" stop-color="#E0E7FF" />
+                                    <stop offset="100%" stop-color="#A5B4FC" />
+                                </radialGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <circle cx="13" cy="13" r="13" fill="url(#icon3-a)" />
+                                <path fill="#4F46E5" fill-opacity=".56"
+                                    d="M0 13a12.966 12.966 0 0 0 4.39 9.737l1.15-1.722s.82-.237.997-.555c.554-.997-.43-2.733-.43-2.733a5.637 5.637 0 0 0-.198-1.23c-.148-.369-1.182-.874-1.182-.874S3.73 13.998 3.73 13a1.487 1.487 0 0 1 1.404-1.55 2.424 2.424 0 0 0 1.588-1.146s1.256-.332 1.551-.847c.295-.515-.332-2.36-.332-2.36a3.086 3.086 0 0 0-.012-1.481 2.8 2.8 0 0 0-.93-1.12 6.143 6.143 0 0 0-1.447-2.148A12.981 12.981 0 0 0 0 13ZM13 0c-.35 0-.696.018-1.04.045-.112.35-.695 1.248-.548 1.653.147.406 1.353.783 1.353.783s-.32 1.25.235 1.692c.554.443 1.44-.148 1.773-.037.331.111.258 2.29.258 2.29s1.07 1.181 2.124 1.33c1.053.147 2.656-1.64 2.656-1.64a21.131 21.131 0 0 0 3.448-1.102A12.974 12.974 0 0 0 13 0Z" />
+                                <path fill="#6366F1" fill-opacity=".4"
+                                    d="M21.398 13.848c.296.702-.555 2.494-1.256 2.843a4.76 4.76 0 0 0-1.82 1.452c-.259.406-.598 2.082-1.447 2.415-.85.332-2.863 2.228-3.934 1.932-1.071-.296-1.071-2.842-.333-3.988.441-.683-.074-2.179-.113-2.695-.039-.517-1.586-1.478-1.586-1.994 0-.813 1.772-2.955 1.772-2.955s1.453-.48 1.896-.37c.448.164.877.374 1.28.628.782.058 1.552.22 2.29.48l.848.775s2.107.777 2.403 1.477Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class="block text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">$116M</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">total
+                            Partner payouts
+                        </span>
+                    </h2>
+                </article>
+            </section>
+
+        </div>
+
+    </main>
+    <!-- cards -->
+
+
+    <div class="md:mt-20">
+        <div class="mx-auto max-w-7xl px-5 py-16 md:px-10 md:py-16  ">
+            <div class="mx-auto w-full max-w-3xl text-center">
+                <h2 class="text-3xl leading-normal font-bold  no:text-white md:text-5xl text-gray-900">Why Partner with
+                    <span class="text-indigo-600">CapitalDoo?</span>
+                </h2>
+                <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
+                    <p class="text-lg text-gray-600">
+                        The opportunities are limitless!
+                        Here is what you get by becoming a CapitalDoo Affiliate
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-8 md:grid-cols-3 ">
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <div class=" mb-6 mx-auto flex items-center justify-center">
+                        <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 9.71429C15 8.76751 14.2325 8 13.2857 8H11C9.89543 8 9 8.89543 9 10C9 11.1046 9.89543 12 11 12H13C14.1046 12 15 12.8954 15 14C15 15.1046 14.1046 16 13 16H10.7143C9.76751 16 9 15.2325 9 14.2857M12 6.5V17.5M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z"
+                                stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round" class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h4
+                        class="text-center md:text-xl font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        Earn up to $800 per referral</h4>
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <div class=" mb-6 mx-auto flex items-center justify-center">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 4C10 3.44772 10.4477 3 11 3H13C13.5523 3 14 3.44772 14 4V6C14 6.55228 13.5523 7 13 7H11C10.4477 7 10 6.55228 10 6V4Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path d="M4 16V15C4 13.8954 4.89543 13 6 13H18C19.1046 13 20 13.8954 20 15V16"
+                                stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round" class="my-path"></path>
+                            <path d="M12 10V16" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path
+                                d="M5 20C5 20.5523 4.55228 21 4 21C3.44772 21 3 20.5523 3 20C3 19.4477 3.44772 19 4 19C4.55228 19 5 19.4477 5 20Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M13 20C13 20.5523 12.5523 21 12 21C11.4477 21 11 20.5523 11 20C11 19.4477 11.4477 19 12 19C12.5523 19 13 19.4477 13 20Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M21 20C21 20.5523 20.5523 21 20 21C19.4477 21 19 20.5523 19 20C19 19.4477 19.4477 19 20 19C20.5523 19 21 19.4477 21 20Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h4
+                        class="text-center md:text-xl font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        Competitive commission & payout structure</h4>
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <div class=" mb-6 mx-auto flex items-center justify-center">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 6C20 7.65685 16.4183 9 12 9C7.58172 9 4 7.65685 4 6C4 4.34315 7.58172 3 12 3C16.4183 3 20 4.34315 20 6Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path d="M20 10C20 11.6569 16.4183 13 12 13C7.58172 13 4 11.6569 4 10" stroke="#4f46e5"
+                                stroke-width="1.2" stroke-linecap="round" class="my-path"></path>
+                            <path d="M20 14C20 15.6569 16.4183 17 12 17C7.58172 17 4 15.6569 4 14" stroke="#4f46e5"
+                                stroke-width="1.2" stroke-linecap="round" class="my-path"></path>
+                            <path d="M20 18C20 19.6569 16.4183 21 12 21C7.58172 21 4 19.6569 4 18" stroke="#4f46e5"
+                                stroke-width="1.2" stroke-linecap="round" class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h4
+                        class="text-center md:text-xl font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        Advanced payment & performance reporting</h4>
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <div class=" mb-6 mx-auto flex items-center justify-center">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19 9V17C19 18.8856 19 19.8284 18.4142 20.4142C17.8284 21 16.8856 21 15 21H9C7.11438 21 6.17157 21 5.58579 20.4142C5 19.8284 5 18.8856 5 17V9"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M4.38556 5.15106C4.57662 4.48237 4.67214 4.14802 4.8473 3.88664C5.09766 3.51302 5.46665 3.2347 5.89467 3.09661C6.19411 3 6.54183 3 7.23728 3H9.00015V6.63958C9.00015 6.99391 9.00015 7.17108 8.9753 7.32724C8.86539 8.01793 8.40268 8.60103 7.75504 8.86501C7.60861 8.92469 7.43607 8.96495 7.09101 9.04547C6.4121 9.20388 6.07264 9.28309 5.82697 9.27934C4.70798 9.26229 3.82074 8.33041 3.85859 7.21193C3.8669 6.96637 3.96266 6.63121 4.15418 5.96088L4.38556 5.15106Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M19.6146 5.15106C19.4235 4.48237 19.328 4.14802 19.1529 3.88664C18.9025 3.51302 18.5335 3.2347 18.1055 3.09661C17.806 3 17.4583 3 16.7629 3H15V6.63958C15 6.99391 15 7.17108 15.0249 7.32724C15.1348 8.01793 15.5975 8.60103 16.2451 8.86501C16.3915 8.92469 16.5641 8.96495 16.9091 9.04547C17.5881 9.20388 17.9275 9.28309 18.1732 9.27934C19.2922 9.26229 20.1794 8.33041 20.1416 7.21193C20.1332 6.96637 20.0375 6.63121 19.846 5.96088L19.6146 5.15106Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M9 3H15V6C15 6.93188 15 7.39782 14.8478 7.76537C14.6448 8.25542 14.2554 8.64477 13.7654 8.84776C13.3978 9 12.9319 9 12 9C11.0681 9 10.6022 9 10.2346 8.84776C9.74458 8.64477 9.35523 8.25542 9.15224 7.76537C9 7.39782 9 6.93188 9 6V3Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M10 17C10 16.0572 10 15.5858 10.2929 15.2929C10.5858 15 11.0572 15 12 15C12.9428 15 13.4142 15 13.7071 15.2929C14 15.5858 14 16.0572 14 17V21H10V17Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h4
+                        class="text-center md:text-xl font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        Professional Affiliate marketing tools</h4>
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <div class=" mb-6 mx-auto flex items-center justify-center">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.99222 12.3283C5.73439 10.8231 4.60547 10.0705 4.60547 9.00011C4.60547 7.92974 5.73439 7.17713 7.99222 5.67191L9.78112 4.47931C10.8566 3.76231 11.3944 3.40381 11.9999 3.40381C12.6055 3.40381 13.1432 3.76231 14.2187 4.47931L16.0076 5.67191C18.2654 7.17713 19.3944 7.92974 19.3944 9.00011C19.3944 10.0705 18.2654 10.8231 16.0076 12.3283L14.2187 13.5209C13.1432 14.2379 12.6055 14.5964 11.9999 14.5964C11.3944 14.5964 10.8566 14.2379 9.78112 13.5209L7.99222 12.3283Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path
+                                d="M18 15V17C18 18.8856 18 19.8284 17.4142 20.4142C16.8284 21 15.8856 21 14 21H10C8.11438 21 7.17157 21 6.58579 20.4142C6 19.8284 6 18.8856 6 17V15"
+                                stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round" class="my-path"></path>
+                            <path d="M21 12L21 17" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h4
+                        class="text-center md:text-xl font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        No cap on commissions</h4>
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <div class=" mb-6 mx-auto flex items-center justify-center">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 8.50002C3 6.6144 3 5.67159 3.58579 5.08581C4.17157 4.50002 5.11438 4.50002 6.99999 4.50002L17 4.5C18.8856 4.5 19.8284 4.5 20.4142 5.08578C21 5.67157 21 6.61438 21 8.5V17C21 18.8856 21 19.8285 20.4142 20.4142C19.8284 21 18.8856 21 17 21H7C5.11438 21 4.17157 21 3.58579 20.4142C3 19.8285 3 18.8856 3 17V8.50002Z"
+                                stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path d="M3 10H21" stroke="#4f46e5" stroke-width="1.2" class="my-path"></path>
+                            <path d="M8.05 14L8 14" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M8.05 17L8 17" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M12.05 14L12 14" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M12.05 17L12 17" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M16.05 14L16 14" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M16.05 17L16 17" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M8 3V6" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round" class="my-path">
+                            </path>
+                            <path d="M16 3L16 6" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h4
+                        class="text-center md:text-xl font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        Monthly payments</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- banner -->
+
+    <section class="bg-white ">
+        <div
+            class="gap-16 items-center md:py-8 pb-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class=" text-gray-600  ">
+                <h2 class="mb-4 !leading-normal md:text-4xl text-3xl tracking-tight font-semibold text-gray-900  ">
+                    Introduce your
+                    Referrals to a
+                    Trusted Global Broker
+                </h2>
+                <p class="mb-6">With our comprehensive range of best-in-class services, technology and tools, we
+                    constantly set new standards of excellence in every aspect of our business. We stand out in our
+                    industry by offering:
+                </p>
+                <ul class="space-y-2 list-disc pl-5 text-gray-600">
+                    <li>Advanced trading tools and world-class trading platforms</li>
+                    <li>Ultra-low spreads from 0.0 pips</li>
+                    <li>Trusted and fully regulated trading environment</li>
+                    <li>Multilingual support available 24/5</li>
+                    <li>Social Trading and Free VPS service</li>
+                    <li>Convenient local and global payment methods</li>
+                    <li>Dedicated Account Manager</li>
+                    <li>Attractive promotions and trading competitions</li>
+                    <li>Market updates, blog articles, educational videos and exclusive webinars</li>
+                </ul>
+            </div>
+            <img class="w-full " src="https://www.icmarkets.com/assets/images/mt5.webp" alt=" content 1">
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <div id="footer"></div>
+
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="./Docs/Javascripts/global.js"></script>
+    <script src="./Docs/Javascripts/navbar.js"></script>
+    <script src="./Docs/Javascripts/footer.js"></script>
+</body>
+
+</html>

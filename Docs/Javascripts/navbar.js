@@ -15,10 +15,10 @@ navbar.innerHTML = `
                         <div
                             class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
                             <ul>
-                                <li><a href=""
+                                <li><a href="./affiliates.html"
                                         class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
-                                        affiliates </a></li>
-                                <li><a href=""
+                                        Affiliates </a></li>
+                                <li><a href="./ibs.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         ibs </a></li>
                             </ul>
@@ -156,10 +156,10 @@ navbar.innerHTML = `
                             <div
                                 class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white mt-5">
                                 <ul>
-                                    <li><a href=""
+                                    <li><a href="./affiliates.html"
                                             class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
                                             Affiliates </a></li>
-                                    <li><a href=""
+                                    <li><a href="./ibs.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             Ibs </a></li>
                                 </ul>
