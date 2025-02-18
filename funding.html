@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="shortcut icon" href="/Docs/Assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Docs/Styles/global.css">
+    <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <div id="navbar"></div>
+
+    <!-- main section -->
+
+    <section class="py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mb-14 text-center">
+                <span
+                    class="py-1 px-4 bg-indigo-100 rounded-full text-xs font-medium text-indigo-600 text-center">Funding</span>
+                <h2 class="md:text-4xl text-2xl text-center font-bold text-gray-900 py-5">
+                    Ground-Breaking Funding Management
+                </h2>
+                <p class="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
+                    Secure and expedited trading environment at your fingertips
+
+                </p>
+            </div>
+            <div
+                class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-indigo-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-indigo-600">
+                        <svg class="stroke-indigo-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 27.5L15 25M15 25V21.25M15 25L20 27.5M8.75 14.375L12.5998 11.0064C13.1943 10.4862 14.1163 10.6411 14.5083 11.327L15.4917 13.048C15.8837 13.7339 16.8057 13.8888 17.4002 13.3686L21.25 10M2.5 2.5H27.5M26.25 2.5V13.25C26.25 17.0212 26.25 18.9069 25.0784 20.0784C23.9069 21.25 22.0212 21.25 18.25 21.25H11.75C7.97876 21.25 6.09315 21.25 4.92157 20.0784C3.75 18.9069 3.75 17.0212 3.75 13.25V2.5"
+                                stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Register
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Click on “Register” and enter your details to sign up.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-pink-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-pink-600">
+                        <svg class="stroke-pink-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.5 7.5C2.5 4.73858 4.73858 2.5 7.5 2.5C10.2614 2.5 12.5 4.73858 12.5 7.5C12.5 10.2614 10.2614 12.5 7.5 12.5C4.73858 12.5 2.5 10.2614 2.5 7.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M2.5 22.5C2.5 20.143 2.5 18.9645 3.23223 18.2322C3.96447 17.5 5.14298 17.5 7.5 17.5C9.85702 17.5 11.0355 17.5 11.7678 18.2322C12.5 18.9645 12.5 20.143 12.5 22.5C12.5 24.857 12.5 26.0355 11.7678 26.7678C11.0355 27.5 9.85702 27.5 7.5 27.5C5.14298 27.5 3.96447 27.5 3.23223 26.7678C2.5 26.0355 2.5 24.857 2.5 22.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M17.5 7.5C17.5 5.14298 17.5 3.96447 18.2322 3.23223C18.9645 2.5 20.143 2.5 22.5 2.5C24.857 2.5 26.0355 2.5 26.7678 3.23223C27.5 3.96447 27.5 5.14298 27.5 7.5C27.5 9.85702 27.5 11.0355 26.7678 11.7678C26.0355 12.5 24.857 12.5 22.5 12.5C20.143 12.5 18.9645 12.5 18.2322 11.7678C17.5 11.0355 17.5 9.85702 17.5 7.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M17.5 22.5C17.5 19.7386 19.7386 17.5 22.5 17.5C25.2614 17.5 27.5 19.7386 27.5 22.5C27.5 25.2614 25.2614 27.5 22.5 27.5C19.7386 27.5 17.5 25.2614 17.5 22.5Z"
+                                stroke="" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Verify
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Complete the verification process and your account will be activated immediately.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+
+                    <div
+                        class="bg-orange-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-orange-600">
+                        <svg class="stroke-orange-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.4167 12.0833V21.25M5.41667 21.25V20.8333C5.41667 19.262 5.41667 18.4763 5.90482 17.9882C6.39298 17.5 7.17865 17.5 8.75 17.5H22.0833C23.6547 17.5 24.4404 17.5 24.9285 17.9882C25.4167 18.4763 25.4167 19.262 25.4167 20.8333V21.25M15.4167 9.16667C13.8453 9.16667 13.0596 9.16667 12.5715 8.67851C12.0833 8.19036 12.0833 7.40468 12.0833 5.83333C12.0833 4.26198 12.0833 3.47631 12.5715 2.98816C13.0596 2.5 13.8453 2.5 15.4167 2.5C16.988 2.5 17.7737 2.5 18.2618 2.98816C18.75 3.47631 18.75 4.26198 18.75 5.83333C18.75 7.40468 18.75 8.19036 18.2618 8.67851C17.7737 9.16667 16.988 9.16667 15.4167 9.16667ZM7.08333 25.8333C7.08333 26.7538 6.33714 27.5 5.41667 27.5C4.49619 27.5 3.75 26.7538 3.75 25.8333C3.75 24.9129 4.49619 24.1667 5.41667 24.1667C6.33714 24.1667 7.08333 24.9129 7.08333 25.8333ZM17.0833 25.8333C17.0833 26.7538 16.3371 27.5 15.4167 27.5C14.4962 27.5 13.75 26.7538 13.75 25.8333C13.75 24.9129 14.4962 24.1667 15.4167 24.1667C16.3371 24.1667 17.0833 24.9129 17.0833 25.8333ZM27.0833 25.8333C27.0833 26.7538 26.3371 27.5 25.4167 27.5C24.4962 27.5 23.75 26.7538 23.75 25.8333C23.75 24.9129 24.4962 24.1667 25.4167 24.1667C26.3371 24.1667 27.0833 24.9129 27.0833 25.8333Z"
+                                stroke="" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Deposit
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Deposit funds via our fast and secure payment gateways.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-teal-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-teal-600">
+                        <svg class="stroke-teal-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.75 26.25H26.25M6.25 22.875C4.86929 22.875 3.75 21.8676 3.75 20.625V12.75C3.75 11.5074 4.86929 10.5 6.25 10.5C7.63071 10.5 8.75 11.5074 8.75 12.75V20.625C8.75 21.8676 7.63071 22.875 6.25 22.875ZM15 22.875C13.6193 22.875 12.5 21.8676 12.5 20.625V9.375C12.5 8.13236 13.6193 7.125 15 7.125C16.3807 7.125 17.5 8.13236 17.5 9.375V20.625C17.5 21.8676 16.3807 22.875 15 22.875ZM23.75 22.875C22.3693 22.875 21.25 21.8676 21.25 20.625V6C21.25 4.75736 22.3693 3.75 23.75 3.75C25.1307 3.75 26.25 4.75736 26.25 6V20.625C26.25 21.8676 25.1307 22.875 23.75 22.875Z"
+                                stroke="" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Trading
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Kickstart your first global trading journey
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- counter -->
+
+    <main class="relative flex flex-col justify-center bg-slate-50 overflow-hidden md:mt-8">
+        <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-10">
+            <h2 class="p-4 pt-8 text-center text-gray-900 font-bold font-manrope md:text-4xl text-3xl md:pt-12 ">
+                <span class="text-indigo-600">Secure </span> and Regulated
+            </h2>
+            <!-- Animated Number Counter -->
+            <section class="grid gap-12 md:grid-cols-3 grid-cols-1 md:gap-16 md:pt-16 py-8">
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-16 h-16 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.00391 18.0049L6.00879 21.0098L9.01367 18.0049" stroke="#4f46e5"
+                                stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="my-path">
+                            </path>
+                            <path d="M3 6.00964L6.00964 3L9.01929 6.00964" stroke="#4f46e5" stroke-width="1.2"
+                                stroke-linecap="round" stroke-linejoin="round" class="my-path"></path>
+                            <path d="M6 3L6 21" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M12 19H21" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M12 12H21" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                            <path d="M12 5H21" stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round"
+                                class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class="block text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">37,000 </span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
+                            Introducing Broker
+
+                        </span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-16 h-16 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22.9983 19.3008C22.9983 15.6557 20.0433 12.7007 16.3982 12.7007M16.3982 12.7007C12.753 12.7007 9.79803 15.6557 9.79803 19.3008M16.3982 12.7007C14.2718 12.7007 12.5481 10.9764 12.5481 8.85007C12.5481 6.72374 14.2719 5 16.3982 5C18.5245 5 20.2483 6.72374 20.2483 8.85007C20.2483 10.9764 18.5245 12.7007 16.3982 12.7007ZM1 18.2008C1 15.1632 3.46248 12.7007 6.50011 12.7007C8.0387 12.7007 9.42974 13.3324 10.428 14.3507M3.74818 9.87261C3.74818 11.3914 4.97942 12.6227 6.49823 12.6227C8.01704 12.6227 9.24828 11.3914 9.24828 9.87261C9.24828 8.3538 8.01704 7.12256 6.49823 7.12256C4.97942 7.12256 3.74818 8.3538 3.74818 9.87261Z"
+                                stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"
+                                class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class="block text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">400,000</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Client
+                            Worldwide
+
+                        </span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-16 h-16 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 9.71429C15 8.76751 14.2325 8 13.2857 8H11C9.89543 8 9 8.89543 9 10C9 11.1046 9.89543 12 11 12H13C14.1046 12 15 12.8954 15 14C15 15.1046 14.1046 16 13 16H10.7143C9.76751 16 9 15.2325 9 14.2857M12 6.5V17.5M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z"
+                                stroke="#4f46e5" stroke-width="1.2" stroke-linecap="round" class="my-path"></path>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class="block text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">950B</span>+ USD
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
+                            Average Monthly
+                        </span>
+                    </h2>
+                </article>
+            </section>
+        </div>
+    </main>
+
+
+    <!-- banner -->
+
+    <div
+        class="flex items-center justify-between md:flex-row flex-col md:gap-5  md:max-w-6xl max-w-[90%] mx-auto text-gray-900 rounded-2xl bg-indigo-50 p-6 xl:py-9 xl:px-12 transition-all duration-500 hover:bg-gray-100 md:mt-20 mt-10">
+        <div class="md:max-w-[60%] w-full">
+            <h3 class="font-manrope text-xl font-semibold mb-3">CapitalDoo</h3>
+            <div class="flex items-center mb-6">
+                <span class="font-manrope mr-2 md:text-4xl text-3xl font-semibold">Multi <span
+                        class="text-indigo-600">Regulated</span></span>
+            </div>
+            <!--List-->
+            <p class="mb-12  text-left flex-wrap text-lg text-gray-500 flex md:gap-y-5 md:gap-x-10 gap-5">
+                CapitalDoo is regulated by multiple regulatory authorities across the globe.
+            </p>
+        </div>
+        <img class="md:max-w-[30%] w-full"
+            src="https://direct-website.azureedge.net/assets/img/svelte-home/platforms/trade-on-mobile-new/trade-on-mobile.webp"
+            alt="">
+    </div>
+
+    <!-- protecting client  -->
+
+    <div class="p-4 md:pt-24 max-w-7xl w-full mx-auto">
+        <h1
+            class="md:pt-8 pt-6 md:pb-5 text-center text-gray-900 font-bold font-manrope md:text-3xl text-2xl md:leading-[70px]">
+            <span class="text-indigo-600">Protecting Client's </span>Asset with Professional Insurance
+        </h1>
+        <p class=" text-gray-500 text-lg text-center">
+            With the professional indemnity insurance (PII), we provide a safe trading environment that protects our
+            clients’ assets from being misappropriated or stolen.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1612178991541-b48cc8e92a4d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="max-w-4xl mx-auto mt-12 rounded-lg w-full" alt="">
+    </div>
+
+
+
+    <!-- table -->
+
+    <div class="p-4 md:pt-16 max-w-7xl w-full mx-auto">
+        <h1
+            class="md:pt-8 pt-6 md:pb-5 text-center text-gray-900 font-bold font-manrope md:text-3xl text-2xl !leading-normal">
+            Convenient And Diversed Deposit and Withdrawal Methods
+
+        </h1>
+        <p class=" text-gray-500 text-lg text-center">
+            At CapitalDoo, deposit and withdraw your funds hassle-free with a variety of secure and easily accessible
+            funding methods.
+            <span class="text-xs block">支持货币：AED、 AUD、 BRL、 COP、 CLP、CNY、 EUR、 EUSD、 GBP、 HKD、
+                IDR、KRW、KHR、LAK、MMK、MXN、NGN、PEN、THB、USD、USDT、VND、ZAR
+
+                Withdrawal</span>
+        </p>
+
+        <div class="max-w-6xl mx-auto md:mt-8 overflow-auto">
+            <table class="w-full border-collapse border border-gray-300">
+                <thead>
+                    <tr class="bg-indigo-600 text-white text-left">
+                        <th class="md:p-5 p-3 border border-gray-300">Withdrawal Method</th>
+                        <th class="md:p-5 p-3 border border-gray-300">Payment Currency</th>
+                        <th class="md:p-5 p-3 border border-gray-300">Processing Time</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white">
+                    <tr>
+                        <td class="p-4 border border-gray-300">International Wire Transfer</td>
+                        <td class="p-4 border border-gray-300">USD, EUR, GBP</td>
+                        <td class="p-4 border border-gray-300">
+                            1 working day, i.e.<br>
+                            T + 1 (USD 0-50,000)<br>
+                            T + 2 (USD 50,001-200,000)<br>
+                            T + 5 (USD 200,001 above)
+                        </td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="p-4 border border-gray-300">Local Bank Transfer</td>
+                        <td class="p-4 border border-gray-300">CNY, THB, VND, IDR, JPY</td>
+                        <td class="p-4 border border-gray-300">
+                            1 working day, i.e.<br>
+                            T + 1 (USD 0-50,000)<br>
+                            T + 2 (USD 50,001-200,000)<br>
+                            T + 5 (USD 200,001 above)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="p-4 border border-gray-300">Electronic Wallet</td>
+                        <td class="p-4 border border-gray-300">USD</td>
+                        <td class="p-4 border border-gray-300">
+                            1 working day, i.e.<br>
+                            T + 1 (USD 0-200,000)<br>
+                            T + 2 (USD 200,001 above)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="mt-4 max-w-6xl mx-auto p-4 bg-gray-100 border border-gray-300 text-gray-700">
+            <p><strong>Please be reminded that when withdrawing:</strong></p>
+            <p>The recommended minimum withdrawal amount is USD 50.</p>
+            <p>Other foreign currencies will be converted according to the USD exchange rate.</p>
+        </div>
+
+
+    </div>
+
+        <!-- banner -->
+
+        <section class="bg-white md:mt-14 mt-12">
+            <div
+                class="md:gap-10 items-center md:py-8 pb-8 px-4 mx-auto max-w-screen-xl flex justify-between md:flex-row flex-col-reverse lg:py-16 lg:px-6">
+                <img class="w-full rounded-lg "
+                    src="https://images.unsplash.com/photo-1634386708556-f1a553527aa0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHRyYWRpbmd8ZW58MHx8MHx8fDA%3D"
+                    alt=" content 1">
+                <div class=" text-gray-600  ">
+                    <h2 class="mb-4 !leading-normal md:text-4xl text-3xl tracking-tight font-semibold text-gray-900  ">
+                        Backed By Highly Sophisticated Protection System
+                    </h2>
+                    <p class="mb-6">CapitalDoo adopts 256-bit SSL encryption and cross-region disaster recovery. When
+                        trading, all of customers' personal information and transaction data are strictly protected which
+                        effectively guards the security of clients’ funds.
+                    </p>
+                </div>
+            </div>
+        </section>
+    
+    <!-- Constructive Cooperation -->
+
+    <section class="lg:pt-20 pt-0  p-4 h-full flex items-center justify-center">
+        <div
+            class="rounded-2xl max-w-7xl mx-auto bg-indigo-50 md:px-10 py-10 overflow-hidden m-5 lg:m-0 2xl:py-10 xl:py-10  lg:rounded-tl-2xl lg:rounded-bl-2xl ">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 gap-14  items-center lg:grid-cols-12">
+                    <div class="w-full xl:col-span-6 lg:col-span-6 2xl:-mx-5 xl:-mx-0">
+                        <div
+                            class="flex items-center text-sm font-medium text-gray-500 justify-center lg:justify-start">
+                            CapitalDoo Cooperation
+                        </div>
+                        <h1
+                            class="md:pt-8 pt-6 md:pb-5 pb-3 text-center text-gray-900 font-bold font-manrope md:text-3xl text-2xl lg:text-left !leading-normal">
+                            <span class="text-indigo-600">Constructive Cooperation </span>With Distinguished Banks
+                        </h1>
+                        <p class=" text-gray-500 text-lg text-center lg:text-left">
+                            To fairly distribute and secure our clients’ funds, CapitalDoo established professional
+                            partnerships with multiple leading investment-grade banks across the world.
+                        </p>
+                        <h1
+                            class="md:pt-8 pt-10 md:pb-5 pb-3 text-center text-gray-900 font-bold font-manrope md:text-3xl text-2xl lg:text-left leading-normal">
+                            <span class="text-indigo-600">Segregation </span> and Client Funds
+                        </h1>
+                        <p class=" text-gray-500 text-lg text-center lg:text-left">
+                            CapitalDoo separates client funds from the company's operating funds and hosts them in
+                            Barclays Bank. We accept the strict review system of international banks, and customer funds
+                            are dedicated and always protected.
+
+                        </p>
+                    </div>
+                    <div class="w-full xl:col-span-6  lg:col-span-6 block">
+                        <div class="w-full  sm:w-auto lg:w-full">
+                            <img src="https://www.icmarkets.com/assets/images/spread-step-04.webp" alt="Dashboard image"
+                                class="" class="w-full  lg:h-auto ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- banner -->
+
+      <section class="bg-white ">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-500 sm:text-lg ">
+                <h2 class="mb-4 text-4xl tracking-tight font-semibold text-gray-900  ">you can invest in Securities</h2>
+                <p class="mb-6">At CapitalDoo, you can invest in Securities, Futures, Forex, Precious Metals,
+                    Commodities and Stock Indices with just one integrated account. Indulge in trading over 10,000
+                    financial products at a glance, easily accessing 6 major markets and seize every global opportunity.
+                </p>
+                <div class="flex items-center gap-12">
+                    <p>Trading Products <span class="block font-semibold text-black">10,000+</span></p>
+                    <p>Client Worldwide
+                        <span class="block font-semibold text-black">400,000+
+
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
+                    alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+                    alt="office content 2">
+            </div>
+        </div>
+    </section>
+
+     <!-- counter -->
+
+     <main class="relative flex flex-col justify-center bg-slate-50 overflow-hidden md:mt-14">
+        <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-10">
+            <h2 class="p-4 pt-8 text-center text-gray-900 font-bold font-manrope md:text-4xl text-3xl md:pt-28 ">
+                One Click to <span class="text-indigo-600">Invest Globally </span> </h2>
+            <p class="text-center px-4 text-gray-500">At CapitalDoo, you can invest in Securities, Futures, Forex,
+                Precious Metals, Commodities and Stock Indices with just one integrated account. Indulge in trading over
+                10,000 financial products at a glance, easily accessing 6 major markets and seize every global
+                opportunity.
+            </p>
+
+            <!-- Animated Number Counter -->
+            <section class="grid gap-12 md:grid-cols-4 grid-cols-2 md:gap-16 md:pt-20 py-8">
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="19">
+                            <defs>
+                                <linearGradient id="icon2-a" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#A5B4FC" />
+                                    <stop offset="100%" stop-color="#4F46E5" />
+                                </linearGradient>
+                                <linearGradient id="icon2-b" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#E0E7FF" />
+                                    <stop offset="100%" stop-color="#A5B4FC" />
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <path fill="url(#icon2-a)"
+                                    d="M5.5 0a5.5 5.5 0 0 0 0 11c.159 0 .314-.01.469-.024a15.896 15.896 0 0 1-2.393 6.759A.5.5 0 0 0 4 18.5h1a.5.5 0 0 0 .362-.155C7.934 15.64 11 11.215 11 5.5A5.506 5.506 0 0 0 5.5 0Z" />
+                                <path fill="url(#icon2-b)"
+                                    d="M18.5 0a5.5 5.5 0 0 0 0 11c.159 0 .314-.01.469-.024a15.896 15.896 0 0 1-2.393 6.759.5.5 0 0 0 .424.765h1a.5.5 0 0 0 .363-.155C20.934 15.64 24 11.215 24 5.5A5.506 5.506 0 0 0 18.5 0Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">10,000</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Financial
+                            Products</span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="20">
+                            <defs>
+                                <linearGradient id="icon1-a" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#A5B4FC" />
+                                    <stop offset="100%" stop-color="#4F46E5" />
+                                </linearGradient>
+                                <linearGradient id="icon1-b" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#EEF2FF" />
+                                    <stop offset="100%" stop-color="#C7D2FE" />
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <path fill="url(#icon1-a)"
+                                    d="M20.625 0H9.375a9.375 9.375 0 0 0 0 18.75h11.25a9.375 9.375 0 0 0 0-18.75Z"
+                                    transform="translate(.885 .885)" />
+                                <path fill="url(#icon1-b)"
+                                    d="M9.375 17.5A8.125 8.125 0 0 1 1.25 9.375 8.125 8.125 0 0 1 9.375 1.25 8.125 8.125 0 0 1 17.5 9.375 8.125 8.125 0 0 1 9.375 17.5Z"
+                                    transform="translate(.885 .885)" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">60</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Currency
+                            Pairs
+                        </span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                            <defs>
+                                <radialGradient id="icon3-a" cx="68.15%" cy="27.232%" r="67.641%" fx="68.15%"
+                                    fy="27.232%">
+                                    <stop offset="0%" stop-color="#E0E7FF" />
+                                    <stop offset="100%" stop-color="#A5B4FC" />
+                                </radialGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <circle cx="13" cy="13" r="13" fill="url(#icon3-a)" />
+                                <path fill="#4F46E5" fill-opacity=".56"
+                                    d="M0 13a12.966 12.966 0 0 0 4.39 9.737l1.15-1.722s.82-.237.997-.555c.554-.997-.43-2.733-.43-2.733a5.637 5.637 0 0 0-.198-1.23c-.148-.369-1.182-.874-1.182-.874S3.73 13.998 3.73 13a1.487 1.487 0 0 1 1.404-1.55 2.424 2.424 0 0 0 1.588-1.146s1.256-.332 1.551-.847c.295-.515-.332-2.36-.332-2.36a3.086 3.086 0 0 0-.012-1.481 2.8 2.8 0 0 0-.93-1.12 6.143 6.143 0 0 0-1.447-2.148A12.981 12.981 0 0 0 0 13ZM13 0c-.35 0-.696.018-1.04.045-.112.35-.695 1.248-.548 1.653.147.406 1.353.783 1.353.783s-.32 1.25.235 1.692c.554.443 1.44-.148 1.773-.037.331.111.258 2.29.258 2.29s1.07 1.181 2.124 1.33c1.053.147 2.656-1.64 2.656-1.64a21.131 21.131 0 0 0 3.448-1.102A12.974 12.974 0 0 0 13 0Z" />
+                                <path fill="#6366F1" fill-opacity=".4"
+                                    d="M21.398 13.848c.296.702-.555 2.494-1.256 2.843a4.76 4.76 0 0 0-1.82 1.452c-.259.406-.598 2.082-1.447 2.415-.85.332-2.863 2.228-3.934 1.932-1.071-.296-1.071-2.842-.333-3.988.441-.683-.074-2.179-.113-2.695-.039-.517-1.586-1.478-1.586-1.994 0-.813 1.772-2.955 1.772-2.955s1.453-.48 1.896-.37c.448.164.877.374 1.28.628.782.058 1.552.22 2.29.48l.848.775s2.107.777 2.403 1.477Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">300</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">U.S.
+                            and Hong Kong Stocks
+                        </span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="19">
+                            <defs>
+                                <linearGradient id="icon2-a" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#A5B4FC" />
+                                    <stop offset="100%" stop-color="#4F46E5" />
+                                </linearGradient>
+                                <linearGradient id="icon2-b" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#E0E7FF" />
+                                    <stop offset="100%" stop-color="#A5B4FC" />
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <path fill="url(#icon2-a)"
+                                    d="M5.5 0a5.5 5.5 0 0 0 0 11c.159 0 .314-.01.469-.024a15.896 15.896 0 0 1-2.393 6.759A.5.5 0 0 0 4 18.5h1a.5.5 0 0 0 .362-.155C7.934 15.64 11 11.215 11 5.5A5.506 5.506 0 0 0 5.5 0Z" />
+                                <path fill="url(#icon2-b)"
+                                    d="M18.5 0a5.5 5.5 0 0 0 0 11c.159 0 .314-.01.469-.024a15.896 15.896 0 0 1-2.393 6.759.5.5 0 0 0 .424.765h1a.5.5 0 0 0 .363-.155C20.934 15.64 24 11.215 24 5.5A5.506 5.506 0 0 0 18.5 0Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">100</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Global
+                            Stock Indices
+                        </span>
+                    </h2>
+                </article>
+            </section>
+
+        </div>
+
+    </main>
+
+      <!-- Subscribe -->
+
+      <div class="w-full grid gap-7 p-4 max-w-4xl mx-auto md:mt-20 mt-10">
+        <div class="grid gap-3">
+            <h2 class="text-center text-gray-900 md:text-3xl text-2xl font-bold font-manrope leading-10">Ready to
+                Superpower Your
+                Ideas?</h2>
+            <p class="xl:max-w-2xl w-full mx-auto text-center text-gray-500 text-base font-normal leading-relaxed">Lorem
+                Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's
+                standard.</p>
+        </div>
+        <div class="grid gap-2.5">
+            <h2 class="text-center text-gray-500 text-sm font-semibold leading-snug">Subscribe to Update</h2>
+            <div
+                class="pl-7 pr-1.5 py-1.5 rounded-full border border-gray-300 justify-between items-center inline-flex">
+                <input
+                    class="focus:outline-none text-black w-full text-opacity-20 text-base font-normal leading-relaxed"
+                    placeholder="Enter email">
+                <button
+                    class="px-5 py-3 bg-indigo-600 hover:bg-indigo-700 transition-all duration-500 rounded-full shadow-sm">
+                    <span class="px-2 text-white text-base font-semibold">Subscribe</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div id="footer"></div>
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="./Docs/Javascripts/global.js"></script>
+    <script src="./Docs/Javascripts/navbar.js"></script>
+    <script src="./Docs/Javascripts/footer.js"></script>
+</body>
+
+</html>

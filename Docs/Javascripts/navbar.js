@@ -31,10 +31,10 @@ navbar.innerHTML = `
                         <div
                             class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
                             <ul>
-                                <li><a href=""
+                                <li><a href="./funding.html"
                                         class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
                                         funding </a></li>
-                                <li><a href=""
+                                <li><a href="./account.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         account </a></li>
                                 <li><a href=""
@@ -177,10 +177,10 @@ navbar.innerHTML = `
                             <div
                                 class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white mt-5">
                                 <ul>
-                                    <li><a href=""
+                                    <li><a href="./funding.html"
                                             class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
                                             Funding </a></li>
-                                    <li><a href=""
+                                    <li><a href="./account.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             Account </a></li>
                                     <li><a href=""

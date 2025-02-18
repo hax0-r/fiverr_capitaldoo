@@ -54,9 +54,9 @@ footer.innerHTML = `
                                 Model</a></li>
                         <li class="mb-4"><a href="javascript:;"
                                 class=" text-gray-600 hover:text-gray-900">technology</a></li>
-                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Accounts</a>
+                        <li class="mb-4"><a href="./account.html" class=" text-gray-600 hover:text-gray-900">Accounts</a>
                         </li>
-                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Funding</a>
+                        <li class="mb-4"><a href="./funding.html" class=" text-gray-600 hover:text-gray-900">Funding</a>
                         </li>
                         <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">vps</a></li>
                         <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Mt4 vs
