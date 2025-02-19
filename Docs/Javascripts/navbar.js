@@ -95,7 +95,7 @@ navbar.innerHTML = `
             </ul>
             <button
                 class="px-10 p-2.5 rounded-lg border-2 text-white  lg:block hidden bg-indigo-600 border-indigo-600 font-medium transition-all duration-500 hover:bg-transparent hover:text-indigo-600">Login</button>
-            <i class="fa-solid fa-bars text-2xl text-[#fff] cursor-pointer lg:hidden" id="openNav"></i>
+            <i class="fa-solid fa-bars text-2xl text-gray-800 cursor-pointer lg:hidden" id="openNav"></i>
         </div>
     </div>
 
