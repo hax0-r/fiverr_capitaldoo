@@ -2,14 +2,14 @@ const navbar = document.getElementById("navbar")
 
 navbar.innerHTML = `
 
-    <div class="bg-white z-50 sticky top-0">
+    <div class=" z-50 sticky top-0">
         <div class="flex items-center justify-between max-w-7xl w-full mx-auto p-5">
-            <a class="" href="./index.html">
+            <a class="text-white" href="./index.html">
                 <!-- <img src="./Docs/Assets/logo.png" class="md:h-12 h-8" alt=""> -->
                 logo
             </a>
             <ul class=" items-center justify-center gap-8 lg:flex hidden ">
-                <li class="flex group cursor-pointer items-center gap-2 relative "> partnership <i
+                <li class="flex group cursor-pointer items-center gap-2 relative text-white"> partnership <i
                         class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
                     <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
                         <div
@@ -25,7 +25,7 @@ navbar.innerHTML = `
                         </div>
                     </div>
                 </li>
-                <li class="flex group cursor-pointer items-center gap-2 relative "> Trading <i
+                <li class="flex group cursor-pointer items-center gap-2 relative text-white"> Trading <i
                         class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
                     <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
                         <div
@@ -59,7 +59,7 @@ navbar.innerHTML = `
                         </div>
                     </div>
                 </li>
-                <li class="flex group cursor-pointer items-center gap-2 relative "> Market <i
+                <li class="flex group cursor-pointer items-center gap-2 relative text-white"> Market <i
                         class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
                     <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
                         <div
@@ -87,11 +87,11 @@ navbar.innerHTML = `
                         </div>
                     </div>
                 </li>
-                <li> <a href="./about-us.html" class="hover:text-indigo-600  transition-all duration-500"> About</a></li>
-                <li> <a href="./contactUs.html" class="hover:text-indigo-600  transition-all duration-500"> Contact</a>
+                <li> <a href="./about-us.html" class="hover:text-indigo-600 text-white transition-all duration-500"> About</a></li>
+                <li> <a href="./contactUs.html" class="hover:text-indigo-600 text-white transition-all duration-500"> Contact</a>
                 </li>
-                <li> <a href="./compliance.html" class="hover:text-indigo-600  transition-all duration-500"> Compliance</a></li>
-                <li> <a href="./csr.html" class="hover:text-indigo-600  transition-all duration-500"> Csr</a></li>
+                <li> <a href="./compliance.html" class="hover:text-indigo-600 text-white transition-all duration-500"> Compliance</a></li>
+                <li> <a href="./csr.html" class="hover:text-indigo-600 text-white transition-all duration-500"> Csr</a></li>
             </ul>
             <button
                 class="px-10 p-2.5 rounded-lg border-2 text-white  lg:block hidden bg-indigo-600 border-indigo-600 font-medium transition-all duration-500 hover:bg-transparent hover:text-indigo-600">Login</button>
