@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="shortcut icon" href="/Docs/Assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Docs/Styles/global.css">
+    <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <div id="navbar"></div>
+
+    <!-- main section -->
+
+    <section class="py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mb-14 text-center">
+                <span class="py-1 px-4 bg-indigo-100 rounded-full text-xs font-medium text-indigo-600 text-center">Stock
+                    Indices</span>
+                <h2 class="md:text-4xl text-2xl text-center font-bold text-gray-900 py-5">
+                    Stock Indices Trading
+                </h2>
+                <p class="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
+                    Explore the global active indices and maximize your exposure to the entire industry or economy
+                </p>
+            </div>
+            <div
+                class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-indigo-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-indigo-600">
+                        <svg class="stroke-indigo-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 27.5L15 25M15 25V21.25M15 25L20 27.5M8.75 14.375L12.5998 11.0064C13.1943 10.4862 14.1163 10.6411 14.5083 11.327L15.4917 13.048C15.8837 13.7339 16.8057 13.8888 17.4002 13.3686L21.25 10M2.5 2.5H27.5M26.25 2.5V13.25C26.25 17.0212 26.25 18.9069 25.0784 20.0784C23.9069 21.25 22.0212 21.25 18.25 21.25H11.75C7.97876 21.25 6.09315 21.25 4.92157 20.0784C3.75 18.9069 3.75 17.0212 3.75 13.25V2.5"
+                                stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Register
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Click on “Register” and enter your details to sign up.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-pink-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-pink-600">
+                        <svg class="stroke-pink-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.5 7.5C2.5 4.73858 4.73858 2.5 7.5 2.5C10.2614 2.5 12.5 4.73858 12.5 7.5C12.5 10.2614 10.2614 12.5 7.5 12.5C4.73858 12.5 2.5 10.2614 2.5 7.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M2.5 22.5C2.5 20.143 2.5 18.9645 3.23223 18.2322C3.96447 17.5 5.14298 17.5 7.5 17.5C9.85702 17.5 11.0355 17.5 11.7678 18.2322C12.5 18.9645 12.5 20.143 12.5 22.5C12.5 24.857 12.5 26.0355 11.7678 26.7678C11.0355 27.5 9.85702 27.5 7.5 27.5C5.14298 27.5 3.96447 27.5 3.23223 26.7678C2.5 26.0355 2.5 24.857 2.5 22.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M17.5 7.5C17.5 5.14298 17.5 3.96447 18.2322 3.23223C18.9645 2.5 20.143 2.5 22.5 2.5C24.857 2.5 26.0355 2.5 26.7678 3.23223C27.5 3.96447 27.5 5.14298 27.5 7.5C27.5 9.85702 27.5 11.0355 26.7678 11.7678C26.0355 12.5 24.857 12.5 22.5 12.5C20.143 12.5 18.9645 12.5 18.2322 11.7678C17.5 11.0355 17.5 9.85702 17.5 7.5Z"
+                                stroke="" stroke-width="2"></path>
+                            <path
+                                d="M17.5 22.5C17.5 19.7386 19.7386 17.5 22.5 17.5C25.2614 17.5 27.5 19.7386 27.5 22.5C27.5 25.2614 25.2614 27.5 22.5 27.5C19.7386 27.5 17.5 25.2614 17.5 22.5Z"
+                                stroke="" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Verify
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Complete the verification process and your account will be activated immediately.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+
+                    <div
+                        class="bg-orange-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-orange-600">
+                        <svg class="stroke-orange-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.4167 12.0833V21.25M5.41667 21.25V20.8333C5.41667 19.262 5.41667 18.4763 5.90482 17.9882C6.39298 17.5 7.17865 17.5 8.75 17.5H22.0833C23.6547 17.5 24.4404 17.5 24.9285 17.9882C25.4167 18.4763 25.4167 19.262 25.4167 20.8333V21.25M15.4167 9.16667C13.8453 9.16667 13.0596 9.16667 12.5715 8.67851C12.0833 8.19036 12.0833 7.40468 12.0833 5.83333C12.0833 4.26198 12.0833 3.47631 12.5715 2.98816C13.0596 2.5 13.8453 2.5 15.4167 2.5C16.988 2.5 17.7737 2.5 18.2618 2.98816C18.75 3.47631 18.75 4.26198 18.75 5.83333C18.75 7.40468 18.75 8.19036 18.2618 8.67851C17.7737 9.16667 16.988 9.16667 15.4167 9.16667ZM7.08333 25.8333C7.08333 26.7538 6.33714 27.5 5.41667 27.5C4.49619 27.5 3.75 26.7538 3.75 25.8333C3.75 24.9129 4.49619 24.1667 5.41667 24.1667C6.33714 24.1667 7.08333 24.9129 7.08333 25.8333ZM17.0833 25.8333C17.0833 26.7538 16.3371 27.5 15.4167 27.5C14.4962 27.5 13.75 26.7538 13.75 25.8333C13.75 24.9129 14.4962 24.1667 15.4167 24.1667C16.3371 24.1667 17.0833 24.9129 17.0833 25.8333ZM27.0833 25.8333C27.0833 26.7538 26.3371 27.5 25.4167 27.5C24.4962 27.5 23.75 26.7538 23.75 25.8333C23.75 24.9129 24.4962 24.1667 25.4167 24.1667C26.3371 24.1667 27.0833 24.9129 27.0833 25.8333Z"
+                                stroke="" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Deposit
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Deposit funds via our fast and secure payment gateways.
+                    </p>
+                </div>
+                <div class="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                    <div
+                        class="bg-teal-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-teal-600">
+                        <svg class="stroke-teal-600 transition-all duration-500 group-hover:stroke-white" width="30"
+                            height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.75 26.25H26.25M6.25 22.875C4.86929 22.875 3.75 21.8676 3.75 20.625V12.75C3.75 11.5074 4.86929 10.5 6.25 10.5C7.63071 10.5 8.75 11.5074 8.75 12.75V20.625C8.75 21.8676 7.63071 22.875 6.25 22.875ZM15 22.875C13.6193 22.875 12.5 21.8676 12.5 20.625V9.375C12.5 8.13236 13.6193 7.125 15 7.125C16.3807 7.125 17.5 8.13236 17.5 9.375V20.625C17.5 21.8676 16.3807 22.875 15 22.875ZM23.75 22.875C22.3693 22.875 21.25 21.8676 21.25 20.625V6C21.25 4.75736 22.3693 3.75 23.75 3.75C25.1307 3.75 26.25 4.75736 26.25 6V20.625C26.25 21.8676 25.1307 22.875 23.75 22.875Z"
+                                stroke="" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-lg font-medium text-gray-900 mb-3 capitalize">
+                        Trading
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500">
+                        Kickstart your first global trading journey
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Capture the Unlimited Opportunities in the Global Market
+ -->
+
+    <main class="relative flex flex-col justify-center bg-slate-50 overflow-hidden md:mt-8">
+        <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-10">
+            <h2 class="p-4 pt-8 text-center text-gray-900 font-bold font-manrope md:text-3xl text-2xl md:pt-12 ">
+                Capture the Unlimited Opportunities in the Global Market
+            </h2>
+            <!-- Animated Number Counter -->
+            <section class="grid gap-12 md:grid-cols-3 grid-cols-1 md:gap-16 md:pt-16 py-8">
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19.7782 14.2221C19.7782 18.5177 16.296 21.9999 12.0004 21.9999C7.70489 21.9999 4.22266 18.5177 4.22266 14.2221C4.22266 9.92657 7.70489 6.44434 12.0004 6.44434C16.296 6.44434 19.7782 9.92657 19.7782 14.2221Z"
+                            stroke="#4f46e5" stroke-width="1.1" class="my-path"></path>
+                        <path
+                            d="M16.4455 7.55556V6.44444C16.4455 3.98984 14.4557 2 12.0011 2C9.54649 2 7.55664 3.98984 7.55664 6.44444V7.55556"
+                            stroke="#4f46e5" stroke-width="1.1" class="my-path"></path>
+                        <path d="M12 14.2222L12 16.4444" stroke="#4f46e5" stroke-width="1.1" stroke-linecap="round"
+                            class="my-path"></path>
+                    </svg>
+                    <h2>
+                        <span class="block text-slate-900 text-lg md:text-xl font-semibold mb-2">
+                            Securities
+                        </span>
+                        <span
+                            class="inline-flex md:font-medium text-xs font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
+                            Support Apple, Fecebook,
+                            Alibaba together with
+                            300+ featured US & Hong
+                            Kong stocks
+                        </span>
+                    </h2>
+                </article>
+                <article class="flex items-center justify-center flex-col text-center">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3 11C3 7.22876 3 5.34315 4.17157 4.17157C5.34315 3 7.22876 3 11 3H13C16.7712 3 18.6569 3 19.8284 4.17157C21 5.34315 21 7.22876 21 11V13C21 16.7712 21 18.6569 19.8284 19.8284C18.6569 21 16.7712 21 13 21H11C7.22876 21 5.34315 21 4.17157 19.8284C3 18.6569 3 16.7712 3 13V11Z"
+                            stroke="#4f46e5" stroke-width="1.1" stroke-linejoin="round" class="my-path"></path>
+                        <path
+                            d="M10 8.5C10 9.32843 9.32843 10 8.5 10C7.67157 10 7 9.32843 7 8.5C7 7.67157 7.67157 7 8.5 7C9.32843 7 10 7.67157 10 8.5Z"
+                            stroke="#4f46e5" stroke-width="1.1" stroke-linejoin="round" class="my-path"></path>
+                        <path
+                            d="M17 8.5C17 9.32843 16.3284 10 15.5 10C14.6716 10 14 9.32843 14 8.5C14 7.67157 14.6716 7 15.5 7C16.3284 7 17 7.67157 17 8.5Z"
+                            stroke="#4f46e5" stroke-width="1.1" stroke-linejoin="round" class="my-path"></path>
+                        <path
+                            d="M7 13.4545C7 13.2035 7.20351 13 7.45455 13H16.5455C16.7965 13 17 13.2035 17 13.4545C17 15.9649 14.9649 18 12.4545 18H11.5455C9.03507 18 7 15.9649 7 13.4545Z"
+                            stroke="#4f46e5" stroke-width="1.1" stroke-linejoin="round" class="my-path"></path>
+                    </svg>
+                    <h2>
+                        <span class="block text-slate-900 text-lg md:text-xl font-semibold mb-2">
+                            Futures
+                        </span>
+                        <span
+                            class="inline-flex md:font-medium text-xs font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
+                            Trade a wide range of commodity futures and stock index futures by capitalizing the market
+                            volatility.
+
+                        </span>
+                    </h2>
+                </article>
+                <article class="flex items-center justify-center flex-col text-center">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 9.71429C15 8.76751 14.2325 8 13.2857 8H11C9.89543 8 9 8.89543 9 10C9 11.1046 9.89543 12 11 12H13C14.1046 12 15 12.8954 15 14C15 15.1046 14.1046 16 13 16H10.7143C9.76751 16 9 15.2325 9 14.2857M12 6.5V17.5M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z"
+                                stroke="#4f46e5" stroke-width="1.1" stroke-linecap="round" class="my-path"></path>
+                        </svg>
+                        <h2>
+                            <span class="block text-slate-900 text-lg md:text-xl font-semibold mb-2">
+                                Forex
+                            </span>
+                            <span
+                                class="inline-flex md:font-medium text-xs font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
+                                USD/JPY, EUR/CAD, GBP/USD plus 60+ popular currency pairs available at your finger tips.
+
+                            </span>
+                        </h2>
+                </article>
+                <article class="flex items-center justify-center flex-col text-center">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.8968 3H11.1033C9.15181 3 8.17604 3 7.6433 3.39856C7.15631 3.76288 6.86156 4.32899 6.84237 4.93687C6.83077 5.3041 6.99622 5.71231 7.33518 6.27349C7.8225 7.0803 8.06616 7.4837 8.52367 7.74185C8.98119 8 9.51502 8 10.5827 8H13.4174C14.4851 8 15.0189 8 15.4764 7.74185C15.934 7.4837 16.1776 7.0803 16.6649 6.27349C17.0039 5.71231 17.1693 5.3041 17.1578 4.93687C17.1386 4.32899 16.8438 3.76288 16.3568 3.39856C15.8241 3 14.8483 3 12.8968 3Z"
+                            stroke="#4f46e5" stroke-width="1.1" class="my-path"></path>
+                        <path
+                            d="M11.9997 21C14.5065 21 16.7739 20.2029 18.4058 18.9167C21.3162 16.6229 19.5034 12.5886 17.0723 9.7919C16.3614 8.97409 15.8568 8.29774 15.8568 8H8.14252C8.14252 8.29774 7.63793 8.97409 6.92702 9.7919C4.49591 12.5886 2.6831 16.6229 5.59348 18.9167C7.22538 20.2029 9.49283 21 11.9997 21Z"
+                            stroke="#4f46e5" stroke-width="1.1" class="my-path"></path>
+                    </svg>
+                    <h2>
+                        <span class="block text-slate-900 text-lg md:text-xl font-semibold mb-2">
+                            Precious Metals
+
+                        </span>
+                        <span
+                            class="inline-flex md:font-medium text-xs font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
+                            Strengthen your investment portfolio and achieve asset appreciation with gold, silver and
+                            other precious metals.
+
+                        </span>
+                    </h2>
+                </article>
+                <article class="flex items-center justify-center flex-col text-center">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 6C20 7.65685 16.4183 9 12 9C7.58172 9 4 7.65685 4 6C4 4.34315 7.58172 3 12 3C16.4183 3 20 4.34315 20 6Z"
+                            stroke="#4f46e5" stroke-width="1.1" class="my-path"></path>
+                        <path d="M20 10C20 11.6569 16.4183 13 12 13C7.58172 13 4 11.6569 4 10" stroke="#4f46e5"
+                            stroke-width="1.1" stroke-linecap="round" class="my-path"></path>
+                        <path d="M20 14C20 15.6569 16.4183 17 12 17C7.58172 17 4 15.6569 4 14" stroke="#4f46e5"
+                            stroke-width="1.1" stroke-linecap="round" class="my-path"></path>
+                        <path d="M20 18C20 19.6569 16.4183 21 12 21C7.58172 21 4 19.6569 4 18" stroke="#4f46e5"
+                            stroke-width="1.1" stroke-linecap="round" class="my-path"></path>
+                    </svg>
+                    <h2>
+                        <span class="block text-slate-900 text-lg md:text-xl font-semibold mb-2">
+                            Commodities
+                        </span>
+                        <span
+                            class="inline-flex md:font-medium text-xs font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
+                            Diversify your portfolio by exploring the energy markets and trade crude oil, natural gas,
+                            etc.
+                        </span>
+                    </h2>
+                </article>
+                <article class="flex items-center justify-center flex-col text-center">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3 7C3 4.79086 4.79086 3 7 3H17C19.2091 3 21 4.79086 21 7V17C21 19.2091 19.2091 21 17 21H7C4.79086 21 3 19.2091 3 17V7Z"
+                            stroke="#4f46e5" stroke-width="1.1" class="my-path"></path>
+                        <path
+                            d="M8 15L10.1215 11.968C10.5433 11.3652 11.3448 11.1656 12 11.5C12.6552 11.8344 13.4567 11.6348 13.8785 11.032L16 8"
+                            stroke="#4f46e5" stroke-width="1.1" stroke-linecap="round" class="my-path"></path>
+                    </svg>
+                    <h2>
+                        <span class="block text-slate-900 text-lg md:text-xl font-semibold mb-2">
+                            Stock Indices
+                        </span>
+                        <span
+                            class="inline-flex md:font-medium text-xs font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">
+
+                            Trade the most popular stock indicies from around the world with us.
+
+                        </span>
+                    </h2>
+                </article>
+
+            </section>
+        </div>
+    </main>
+
+ <!-- A Variety of Steadfast Trading Software-->
+
+ <div class="md:mt-10">
+    <div class="mx-auto max-w-7xl px-5 pt-16 md:px-10 md:pt-16  ">
+        <div class="mx-auto w-full max-w-5xl text-center">
+            <h2 class="text-2xl font-bold  no:text-white md:text-4xl text-gray-900">A Variety of Steadfast Trading
+                Software
+
+            </h2>
+            <div class="mx-auto mb-8 mt-4 max-w-[528px] md:mb-12 lg:mb-16">
+                <p class="text-lg text-gray-600">
+                    Kickstart Your Trading Journey with Multiple Popular Softwares
+                </p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 md:grid-cols-4 ">
+            <div
+                class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                <img src="https://capitaldoo.com/trading-platform/mt4-vs-mt5/images/icon-tools-mt4.svg" class="mb-3"
+                    alt="">
+                <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                    MetaTrader 4</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> The Most
+                    Popular Trading Platform
+                </p>
+
+            </div>
+            <div
+                class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                <img src="https://capitaldoo.com/trading-platform/mt4-vs-mt5/images/icon-tools-mt4.svg" class="mb-3"
+                    alt="">
+                <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                    MetaTrader 5</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4"> A
+                    Multi-Asset Platform
+                </p>
+
+            </div>
+
+            <div
+                class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                <img src="https://capitaldoo.com/trading-platform/mt4-vs-mt5/images/icon-tools-intrade.svg"
+                    class="mb-3" alt="">
+                <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                    CapitalDoo InTrade</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4">
+                    Professional Trading Platform for the Mobile Centrics
+
+                </p>
+
+            </div>
+            <div
+                class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                <img src="https://capitaldoo.com/trading-platform/mt4-vs-mt5/images/icon-tools-fixapi.svg"
+                    class="mb-9 md:h-auto h-10" alt="">
+                <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                    FIX API 4.4</h4>
+                <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 mb-4">
+                    The De Facto Communication Standard for Financial Markets
+
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- cards -->
+
+    <div class="max-w-7xl p-4 mx-auto w-full">
+        <h1
+            class="md:pt-24 pt-12 md:pb-5 pb-3 text-center text-gray-900 font-bold font-manrope md:text-3xl text-2xl !leading-normal">
+            Trade Spot Indices With CapitalDoo
+
+        </h1>
+        <p class=" text-gray-500 text-lg text-center">
+            Start trading today by choosing the most suitable
+            type for your investment needs.
+        </p>
+
+        <div class="md:pt-14 pt-8 grid md:grid-cols-3 gap-5">
+
+
+            <div class="w-full bg-white border border-gray-200 rounded-lg shadow-sm ">
+                <a href="#">
+                    <img class="rounded-t-lg md:h-60 w-full object-cover"
+                        src="https://plus.unsplash.com/premium_photo-1681487769650-a0c3fbaed85a?q=80&w=1855&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 ">Highly Leveraged Two-way
+                            Trading
+                        </h5>
+                    </a>
+                    <p class="mb-3  text-gray-700 ">Amplify your position with high leverage, and capture the market’s
+                        constant stream of profit opportunity.
+                    </p>
+                </div>
+            </div>
+            <div class="w-full bg-white border border-gray-200 rounded-lg shadow-sm ">
+                <a href="#">
+                    <img class="rounded-t-lg md:h-60 w-full object-cover"
+                        src="https://images.unsplash.com/photo-1630569470960-ec1e8c077d6b?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 ">Diversified Products
+                        </h5>
+                    </a>
+                    <p class="mb-3  text-gray-700 ">
+                        Mainstream index futures and commodity futures in the United States, Europe, Asia Pacific, and
+                        other regions around the world
+                    </p>
+                </div>
+            </div>
+            <div class="w-full bg-white border border-gray-200 rounded-lg shadow-sm ">
+                <a href="#">
+                    <img class="rounded-t-lg md:h-60 w-full object-cover"
+                        src="https://images.unsplash.com/photo-1635236198091-33d5aa8466cc?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 ">Excellent Market Depth
+                        </h5>
+                    </a>
+                    <p class="mb-3  text-gray-700 ">
+                        Quotes of up to level 8 market depth, real-time display of market trading volume, liquidity
+                        insight data, and visualize market fluctuations to grasp opportunities
+                    </p>
+                </div>
+            </div>
+            <div class="w-full bg-white border border-gray-200 rounded-lg shadow-sm ">
+                <a href="#">
+                    <img class="rounded-t-lg md:h-60 w-full object-cover"
+                        src="https://images.unsplash.com/photo-1612178991541-b48cc8e92a4d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 ">No Handling Fees*
+                        </h5>
+                    </a>
+                    <p class="mb-3  text-gray-700 ">
+                        Enjoy competitive spreads of 1 pips below the industry’s average cost, with no additional
+                        trading commissions.
+                    </p>
+                </div>
+            </div>
+            <div class="w-full bg-white border border-gray-200 rounded-lg shadow-sm ">
+                <a href="#">
+                    <img class="rounded-t-lg md:h-60 w-full object-cover"
+                        src="https://images.unsplash.com/photo-1629339942248-45d4b10c8c2f?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 ">Low Capital Requirement
+                        </h5>
+                    </a>
+                    <p class="mb-3  text-gray-700 ">
+                        A deposit of USD 100 to get started. The minimum trading lot is as low as 0.01 lot.
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="w-full bg-white border border-gray-200 rounded-lg shadow-sm ">
+                <a href="#">
+                    <img class="rounded-t-lg md:h-60 w-full object-cover"
+                        src="https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 ">Straightforward Trading
+                        </h5>
+                    </a>
+                    <p class="mb-3  text-gray-700 ">
+                        Fuel trades with readily available high-quality news and analysis. Trading is also made easier
+                        with copy trading features.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- table -->
+
+    <div class="p-4 md:pt-16 pt-12 max-w-7xl w-full mx-auto">
+        <h1
+            class="md:pt-8 md:pb-5 pb-3 text-center text-gray-900 font-bold font-manrope md:text-3xl text-2xl !leading-normal">
+            Indices VS CFD Indices
+        </h1>
+        <p class=" text-gray-500 text-lg text-center">
+            Start trading today by choosing the most suitable
+            type for your investment needs.
+        </p>
+
+
+        <div class="overflow-x-auto mt-7">
+            <table class="w-full border border-gray-300 text-left text-sm">
+                <!-- Header -->
+                <thead>
+                    <tr class="bg-indigo-600 text-white">
+                        <th class="px-4 md:py-5 py-3"></th>
+                        <th class="px-4 md:py-5 py-3">Index Exchange-Traded Funds (ETFs)</th>
+                        <th class="px-4 md:py-5 py-3">Index Futures</th>
+                        <th class="px-4 md:py-5 py-3">Stock Index CFDs</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-200">
+                    <!-- Related Trading Products -->
+                    <tr>
+                        <td class="px-4 md:py-5 py-3 font-semibold">Related Trading Products</td>
+                        <td class="px-4 md:py-5 py-3">
+                            S&P 500 Index ETF (SPY) <br>
+                            Russell 3000 Index ETF (IWV) <br>
+                            Invesco QQQ Trust ETF (QQQ)
+                        </td>
+                        <td class="px-4 md:py-5 py-3">
+                            E-Mini S&P 500 Index Futures (ES) <br>
+                            E-Mini NASDAQ 100 Index Futures (NQ) <br>
+                            German DAX 30 Index Futures (FDAX)
+                        </td>
+                        <td class="px-4 md:py-5 py-3">
+                            US SPX 500 Index Spot CFD (SP500) <br>
+                            US Tech 100 Index Spot CFD (NAS100) <br>
+                            Germany DAX 30 Index Spot CFD (GER30)
+                        </td>
+                    </tr>
+                    <!-- Leverage -->
+                    <tr>
+                        <td class="px-4 md:py-5 py-3 font-semibold">Leverage</td>
+                        <td class="px-4 md:py-5 py-3">None</td>
+                        <td class="px-4 md:py-5 py-3">Ranges from 8-12 times in general</td>
+                        <td class="px-4 md:py-5 py-3">1:50 for spot indices and 1:200 for Index futures *</td>
+                    </tr>
+                    <!-- Margin Requirement -->
+                    <tr>
+                        <td class="px-4 md:py-5 py-3 font-semibold">Margin Requirement</td>
+                        <td class="px-4 md:py-5 py-3">High</td>
+                        <td class="px-4 md:py-5 py-3">Medium</td>
+                        <td class="px-4 md:py-5 py-3">Low</td>
+                    </tr>
+                    <!-- Trading Hours -->
+                    <tr>
+                        <td class="px-4 md:py-5 py-3 font-semibold">Trading Hours</td>
+                        <td class="px-4 md:py-5 py-3">5 days a week, approximately 5 to 8.5 hours per day, on a single
+                            exchange</td>
+                        <td class="px-4 md:py-5 py-3">5 days a week, a single index OTC trade can last up to 23 hours a
+                            day</td>
+                        <td class="px-4 md:py-5 py-3">5 days a week, a single index OTC trade can last up to 23 hours a
+                            day</td>
+                    </tr>
+                    <!-- Rollover Requirement -->
+                    <tr>
+                        <td class="px-4 md:py-5 py-3 font-semibold">Rollover Requirement</td>
+                        <td class="px-4 md:py-5 py-3">-</td>
+                        <td class="px-4 md:py-5 py-3 text-blue-500 text-lg">✔</td>
+                        <td class="px-4 md:py-5 py-3">-</td>
+                    </tr>
+                    <!-- Trading Platforms -->
+                    <tr>
+                        <td class="px-4 md:py-5 py-3 font-semibold">Trading Platforms</td>
+                        <td class="px-4 md:py-5 py-3">Buy and sell through selected trading platforms provided by
+                            brokers or banks</td>
+                        <td class="px-4 md:py-5 py-3">Buy and sell through selected trading platforms provided by
+                            brokers or banks</td>
+                        <td class="px-4 md:py-5 py-3">
+                            Trade anytime and anywhere via PC and mobile. Access multiple trading platforms, namely MT4,
+                            MT5, CapitalDoo InTrade, TradingView, FIX API 4.4, and more.
+                        </td>
+                    </tr>
+                    <!-- Account Type -->
+                    <tr>
+                        <td class="px-4 md:py-5 py-3 font-semibold">Account Type</td>
+                        <td class="px-4 md:py-5 py-3">Single account type with higher trading cost</td>
+                        <td class="px-4 md:py-5 py-3">Single account type with higher trading cost</td>
+                        <td class="px-4 md:py-5 py-3">
+                            Trade via standard account (STP), professional account (ECN), Mini account, or other
+                            available accounts
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+
+    
+    <!-- cards 2 -->
+
+
+    <div class="">
+        <div class="mx-auto max-w-7xl px-5 py-16 md:px-4 md:py-16  ">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-5 md:grid-cols-3 ">
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        1 : 1 - 1 : 1000</h4>
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 ">
+                        Take advantage of flexible leveraged trades. Trade small amount of funds with maximum returns.
+
+
+                    </p>
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        50 ms
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 "> Enjoy stable
+                        and diversified product quotes alongside fast order executions within 50ms.
+
+
+
+                    </p>
+                </div>
+                <div
+                    class="relative  border border-solid border-gray-200 w-full rounded-2xl p-4 transition-all duration-500   xl:p-7   ">
+                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">
+                        0.0 pips
+                    </h4>
+                    <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 "> Ultra-low
+                        trading costs - save up to USD 10 per lot.
+
+
+
+
+                    </p>
+                </div>
+               
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- banner -->
+
+    <section class="bg-white ">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-500 sm:text-lg ">
+                <h2 class="mb-4 md:text-4xl text-3xl leading-normal tracking-tight font-semibold text-gray-900  ">you can invest in Securities</h2>
+                <p class="mb-6">At CapitalDoo, you can invest in Securities, Futures, Forex, Precious Metals,
+                    Commodities and Stock Indices with just one integrated account. Indulge in trading over 10,000
+                    financial products at a glance, easily accessing 6 major markets and seize every global opportunity.
+                </p>
+                <div class="flex items-center gap-12">
+                    <p>Trading Products <span class="block font-semibold text-black">10,000+</span></p>
+                    <p>Client Worldwide
+                        <span class="block font-semibold text-black">400,000+
+
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
+                    alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+                    alt="office content 2">
+            </div>
+        </div>
+    </section>
+
+    <!-- counter -->
+
+    <main class="relative flex flex-col justify-center bg-slate-50 overflow-hidden md:mt-14">
+        <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-10">
+            <h2 class="p-4 pt-8 text-center text-gray-900 font-bold font-manrope md:text-4xl text-3xl md:pt-28 ">
+                One Click to <span class="text-indigo-600">Invest Globally </span> </h2>
+            <p class="text-center px-4 text-gray-500">At CapitalDoo, you can invest in Securities, Futures, Forex,
+                Precious Metals, Commodities and Stock Indices with just one integrated account. Indulge in trading over
+                10,000 financial products at a glance, easily accessing 6 major markets and seize every global
+                opportunity.
+            </p>
+
+            <!-- Animated Number Counter -->
+            <section class="grid gap-12 md:grid-cols-4 grid-cols-2 md:gap-16 md:pt-20 py-8">
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="19">
+                            <defs>
+                                <linearGradient id="icon2-a" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#A5B4FC" />
+                                    <stop offset="100%" stop-color="#4F46E5" />
+                                </linearGradient>
+                                <linearGradient id="icon2-b" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#E0E7FF" />
+                                    <stop offset="100%" stop-color="#A5B4FC" />
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <path fill="url(#icon2-a)"
+                                    d="M5.5 0a5.5 5.5 0 0 0 0 11c.159 0 .314-.01.469-.024a15.896 15.896 0 0 1-2.393 6.759A.5.5 0 0 0 4 18.5h1a.5.5 0 0 0 .362-.155C7.934 15.64 11 11.215 11 5.5A5.506 5.506 0 0 0 5.5 0Z" />
+                                <path fill="url(#icon2-b)"
+                                    d="M18.5 0a5.5 5.5 0 0 0 0 11c.159 0 .314-.01.469-.024a15.896 15.896 0 0 1-2.393 6.759.5.5 0 0 0 .424.765h1a.5.5 0 0 0 .363-.155C20.934 15.64 24 11.215 24 5.5A5.506 5.506 0 0 0 18.5 0Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">10,000</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Financial
+                            Products</span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="20">
+                            <defs>
+                                <linearGradient id="icon1-a" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#A5B4FC" />
+                                    <stop offset="100%" stop-color="#4F46E5" />
+                                </linearGradient>
+                                <linearGradient id="icon1-b" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#EEF2FF" />
+                                    <stop offset="100%" stop-color="#C7D2FE" />
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <path fill="url(#icon1-a)"
+                                    d="M20.625 0H9.375a9.375 9.375 0 0 0 0 18.75h11.25a9.375 9.375 0 0 0 0-18.75Z"
+                                    transform="translate(.885 .885)" />
+                                <path fill="url(#icon1-b)"
+                                    d="M9.375 17.5A8.125 8.125 0 0 1 1.25 9.375 8.125 8.125 0 0 1 9.375 1.25 8.125 8.125 0 0 1 17.5 9.375 8.125 8.125 0 0 1 9.375 17.5Z"
+                                    transform="translate(.885 .885)" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">60</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Currency
+                            Pairs
+                        </span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                            <defs>
+                                <radialGradient id="icon3-a" cx="68.15%" cy="27.232%" r="67.641%" fx="68.15%"
+                                    fy="27.232%">
+                                    <stop offset="0%" stop-color="#E0E7FF" />
+                                    <stop offset="100%" stop-color="#A5B4FC" />
+                                </radialGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <circle cx="13" cy="13" r="13" fill="url(#icon3-a)" />
+                                <path fill="#4F46E5" fill-opacity=".56"
+                                    d="M0 13a12.966 12.966 0 0 0 4.39 9.737l1.15-1.722s.82-.237.997-.555c.554-.997-.43-2.733-.43-2.733a5.637 5.637 0 0 0-.198-1.23c-.148-.369-1.182-.874-1.182-.874S3.73 13.998 3.73 13a1.487 1.487 0 0 1 1.404-1.55 2.424 2.424 0 0 0 1.588-1.146s1.256-.332 1.551-.847c.295-.515-.332-2.36-.332-2.36a3.086 3.086 0 0 0-.012-1.481 2.8 2.8 0 0 0-.93-1.12 6.143 6.143 0 0 0-1.447-2.148A12.981 12.981 0 0 0 0 13ZM13 0c-.35 0-.696.018-1.04.045-.112.35-.695 1.248-.548 1.653.147.406 1.353.783 1.353.783s-.32 1.25.235 1.692c.554.443 1.44-.148 1.773-.037.331.111.258 2.29.258 2.29s1.07 1.181 2.124 1.33c1.053.147 2.656-1.64 2.656-1.64a21.131 21.131 0 0 0 3.448-1.102A12.974 12.974 0 0 0 13 0Z" />
+                                <path fill="#6366F1" fill-opacity=".4"
+                                    d="M21.398 13.848c.296.702-.555 2.494-1.256 2.843a4.76 4.76 0 0 0-1.82 1.452c-.259.406-.598 2.082-1.447 2.415-.85.332-2.863 2.228-3.934 1.932-1.071-.296-1.071-2.842-.333-3.988.441-.683-.074-2.179-.113-2.695-.039-.517-1.586-1.478-1.586-1.994 0-.813 1.772-2.955 1.772-2.955s1.453-.48 1.896-.37c.448.164.877.374 1.28.628.782.058 1.552.22 2.29.48l.848.775s2.107.777 2.403 1.477Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">300</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">U.S.
+                            and Hong Kong Stocks
+                        </span>
+                    </h2>
+                </article>
+                <!-- Block -->
+                <article class="flex items-center justify-center flex-col text-center">
+                    <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="19">
+                            <defs>
+                                <linearGradient id="icon2-a" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#A5B4FC" />
+                                    <stop offset="100%" stop-color="#4F46E5" />
+                                </linearGradient>
+                                <linearGradient id="icon2-b" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#E0E7FF" />
+                                    <stop offset="100%" stop-color="#A5B4FC" />
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <path fill="url(#icon2-a)"
+                                    d="M5.5 0a5.5 5.5 0 0 0 0 11c.159 0 .314-.01.469-.024a15.896 15.896 0 0 1-2.393 6.759A.5.5 0 0 0 4 18.5h1a.5.5 0 0 0 .362-.155C7.934 15.64 11 11.215 11 5.5A5.506 5.506 0 0 0 5.5 0Z" />
+                                <path fill="url(#icon2-b)"
+                                    d="M18.5 0a5.5 5.5 0 0 0 0 11c.159 0 .314-.01.469-.024a15.896 15.896 0 0 1-2.393 6.759.5.5 0 0 0 .424.765h1a.5.5 0 0 0 .363-.155C20.934 15.64 24 11.215 24 5.5A5.506 5.506 0 0 0 18.5 0Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2>
+                        <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
+                            <span class="">100</span>+
+                        </span>
+                        <span
+                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Global
+                            Stock Indices
+                        </span>
+                    </h2>
+                </article>
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- Subscribe -->
+
+    <div class="w-full grid gap-7 p-4 max-w-4xl mx-auto md:mt-20 mt-10">
+        <div class="grid gap-3">
+            <h2 class="text-center text-gray-900 md:text-3xl text-2xl font-bold font-manrope leading-10">Ready to
+                Superpower Your
+                Ideas?</h2>
+            <p class="xl:max-w-2xl w-full mx-auto text-center text-gray-500 text-base font-normal leading-relaxed">Lorem
+                Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's
+                standard.</p>
+        </div>
+        <div class="grid gap-2.5">
+            <h2 class="text-center text-gray-500 text-sm font-semibold leading-snug">Subscribe to Update</h2>
+            <div
+                class="pl-7 pr-1.5 py-1.5 rounded-full border border-gray-300 justify-between items-center inline-flex">
+                <input
+                    class="focus:outline-none text-black w-full text-opacity-20 text-base font-normal leading-relaxed"
+                    placeholder="Enter email">
+                <button
+                    class="px-5 py-3 bg-indigo-600 hover:bg-indigo-700 transition-all duration-500 rounded-full shadow-sm">
+                    <span class="px-2 text-white text-base font-semibold">Subscribe</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div id="footer"></div>
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="./Docs/Javascripts/global.js"></script>
+    <script src="./Docs/Javascripts/navbar.js"></script>
+    <script src="./Docs/Javascripts/footer.js"></script>
+</body>
+
+</html>

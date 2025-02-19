@@ -31,19 +31,17 @@ footer.innerHTML = `
                 <div class="lg:mx-auto text-left ">
                     <h4 class="text-lg text-gray-900 font-medium mb-7">Market</h4>
                     <ul class="text-sm  transition-all duration-500">
-                        <li class="mb-4"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Securities</a>
+                        <li class="mb-4"><a href="./securities.html" class="text-gray-600 hover:text-gray-900">Securities</a>
                         </li>
-                        <li class="mb-4"><a href="javascript:;"
+                        <li class="mb-4"><a href="./commodities.html"
                                 class=" text-gray-600 hover:text-gray-900">Commodities</a></li>
-                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Forex</a>
+                        <li class="mb-4"><a href="./forex.html" class=" text-gray-600 hover:text-gray-900">Forex</a>
                         </li>
-                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Precious
+                        <li class="mb-4"><a href="./precious-metal.html" class=" text-gray-600 hover:text-gray-900">precious
                                 Metal</a></li>
-                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">precious
-                                Metal</a></li>
-                        <li class="mb-4"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Futures</a>
+                        <li class="mb-4"><a href="./futures.html" class=" text-gray-600 hover:text-gray-900">Futures</a>
                         </li>
-                        <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Stock Indics</a></li>
+                        <li><a href="./stock-indices.html" class=" text-gray-600 hover:text-gray-900">Stock Indics</a></li>
                     </ul>
                 </div>
                 <!--End Col-->

@@ -25,7 +25,7 @@ navbar.innerHTML = `
                         </div>
                     </div>
                 </li>
-                <li class="flex group cursor-pointer items-center gap-2 relative"> trading <i
+                <li class="flex group cursor-pointer items-center gap-2 relative"> Trading <i
                         class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
                     <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
                         <div
@@ -33,22 +33,22 @@ navbar.innerHTML = `
                             <ul>
                                 <li><a href="./funding.html"
                                         class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
-                                        funding </a></li>
+                                        Funding </a></li>
                                 <li><a href="./account.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        account </a></li>
+                                        Account </a></li>
                                 <li><a href=""
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        technology </a></li>
+                                        Technology </a></li>
                                 <li><a href="./pricing.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        pricing-model </a></li>
+                                        Pricing-model </a></li>
                                 <li><a href="./vps.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         vps </a></li>
                                 <li><a href="./mt4-vs-mt5.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        mt4-vs-mt5 </a></li>
+                                        Mt4-vs-mt5 </a></li>
                                 <li><a href="./metatrader5.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         Metatrader 5 </a></li>
@@ -65,24 +65,24 @@ navbar.innerHTML = `
                         <div
                             class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
                             <ul>
-                                <li><a href=""
+                                <li><a href="./stock-indices.html"
                                         class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
                                         Stock Indices </a></li>
-                                <li><a href=""
+                                <li><a href="./commodities.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        commodities </a></li>
-                                <li><a href=""
+                                        Commodities </a></li>
+                                <li><a href="./precious-metal.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         Precious Metal </a></li>
-                                <li><a href=""
+                                <li><a href="./forex.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        forex </a></li>
-                                <li><a href=""
+                                        Forex </a></li>
+                                <li><a href="./futures.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        futures </a></li>
-                                <li><a href=""
+                                        Futures </a></li>
+                                <li><a href="./securities.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        securities </a></li>
+                                        Securities </a></li>
                             </ul>
                         </div>
                     </div>
@@ -123,24 +123,24 @@ navbar.innerHTML = `
                             <div
                                 class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white mt-5">
                                 <ul>
-                                    <li><a href=""
+                                    <li><a href="./stock-indices.html"
                                             class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
                                             Stock Indices </a></li>
-                                    <li><a href=""
+                                    <li><a href="./commodities.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             commodities </a></li>
-                                    <li><a href=""
+                                    <li><a href="./precious-metal.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             Precious Metal </a></li>
-                                    <li><a href=""
+                                    <li><a href="./forex.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             Forex </a></li>
-                                    <li><a href=""
+                                    <li><a href="./futures.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                             Futures </a></li>
-                                    <li><a href=""
+                                    <li><a href="./securities.html"
                                             class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                            Stock securities </a></li>
+                                             securities </a></li>
                                 </ul>
                             </div>
                         </div>
