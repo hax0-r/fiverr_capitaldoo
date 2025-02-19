@@ -50,7 +50,7 @@ footer.innerHTML = `
                     <ul class="text-sm  transition-all duration-500">
                         <li class="mb-4"><a href="./pricing.html" class="text-gray-600 hover:text-gray-900">Pricing
                                 Model</a></li>
-                        <li class="mb-4"><a href="javascript:;"
+                        <li class="mb-4"><a href="./technology.html"
                                 class=" text-gray-600 hover:text-gray-900">technology</a></li>
                         <li class="mb-4"><a href="./account.html" class=" text-gray-600 hover:text-gray-900">Accounts</a>
                         </li>

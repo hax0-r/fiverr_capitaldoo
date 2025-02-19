@@ -14,7 +14,10 @@
   --white-color: #f7f7f7;
 }
 
-img, button, iframe, a {
+img,
+button,
+iframe,
+a {
   user-select: none;
 }
 
@@ -27,6 +30,7 @@ img, button, iframe, a {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -49,6 +53,7 @@ img, button, iframe, a {
   background-color: #dd572d;
   transition: 200ms all;
 }
+
 .navUnderLine:hover::before {
   width: 100%;
 }
@@ -61,6 +66,7 @@ img, button, iframe, a {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -69,40 +75,54 @@ img, button, iframe, a {
 .myShadow {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 /* --------------testimonial---------------- */
 
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-    content: '' !important;
+  content: '' !important;
 }
 
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
-    content: '' !important;
+  content: '' !important;
 }
 
 .swiper-button-next svg,
 .swiper-button-prev svg {
-    width: 24px !important;
-    height: 24px !important;
+  width: 24px !important;
+  height: 24px !important;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-    position: relative !important;
+  position: relative !important;
 }
 
 .swiper-slide.swiper-slide-active {
-    --tw-border-opacity: 1 !important;
-    border-color: rgb(79 70 229 / var(--tw-border-opacity)) !important;
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(79 70 229 / var(--tw-border-opacity)) !important;
 }
 
 .swiper-slide.swiper-slide-active>.swiper-slide-active\:text-indigo-600 {
-    --tw-text-opacity: 1;
-    color: rgb(79 70 229 / var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(79 70 229 / var(--tw-text-opacity));
 }
 
 .swiper-slide.swiper-slide-active>.flex .grid .swiper-slide-active\:text-indigo-600 {
-    --tw-text-opacity: 1;
-    color: rgb(79 70 229 / var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(79 70 229 / var(--tw-text-opacity));
+}
+
+.swiper-wrapper {
+  width: 100%;
+  height: max-content !important;
+  padding-bottom: 64px !important;
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+  background: #4f46e5;
 }
