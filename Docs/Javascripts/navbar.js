@@ -122,8 +122,7 @@ navbar.innerHTML = `
         <div class="">
             <div class="flex p-5 items-center justify-between">
                 <a href="./index.html">
-                    <!-- <img src="./Docs/Assets/logo.png" class="h-9" alt=""> -->
-                    logo
+                   <img src="https://capitaldoo.com/trading-platform/metatrader5/images/Man_Utd_x_Doo_Prime_desktop.png" class="h-9" alt="logo">
                 </a>
                 <i id="closeNav" class="fa-solid fa-x text-xl"></i>
             </div>
