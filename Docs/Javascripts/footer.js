@@ -1,7 +1,7 @@
 const footer = document.getElementById("footer")
 
 footer.innerHTML = `
-  <footer class="w-full md:mt-20">
+  <footer class="w-full md:mt-20 bg-gray-50">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <!--Grid-->
             <div

@@ -87,8 +87,27 @@ navbar.innerHTML = `
                         </div>
                     </div>
                 </li>
-                <li> <a href="./about-us.html" class="hover:text-indigo-600  transition-all duration-500"> About</a></li>
-                <li> <a href="./contactUs.html" class="hover:text-indigo-600  transition-all duration-500"> Contact</a>
+                <li class="flex group cursor-pointer items-center gap-2 relative "> About Us <i
+                        class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
+                    <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-72">
+                        <div
+                            class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
+                            <ul>
+                                <li><a href="./contactUs.html"
+                                        class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
+                                        Contact Us </a></li>
+                                <li><a href="./about-us.html"
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        Our Story </a></li>
+                                <li><a href="#"
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        Risk Disclosure </a></li>
+                                <li><a href="#"
+                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                        Coporate Social Responsibilty </a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </li>
                 <li> <a href="./compliance.html" class="hover:text-indigo-600  transition-all duration-500"> Compliance</a></li>
                 <li> <a href="./csr.html" class="hover:text-indigo-600  transition-all duration-500"> Csr</a></li>
@@ -205,11 +224,32 @@ navbar.innerHTML = `
                             </div>
                         </div>
                     </li>
-                    <li> <a href="./about-us.html" class="hover:text-indigo-600 transition-all duration-500">
-                            About Us</a>
-                    </li>
-                    <li> <a href="./contactUs.html" class="hover:text-indigo-600 transition-all duration-500"> Contact
-                            Us</a>
+                    <li class="bg-white " x-data="accordion(4)">
+                        <h2 @click="handleClick()"
+                            class="flex flex-row justify-between items-center font-medium  cursor-pointer">
+                            <span>About Us</span>
+                            <i :class="handleRotate()" class="fa-solid fa-angle-down transition-all duration-500"></i>
+                        </h2>
+                        <div x-ref="tab" :style="handleToggle()"
+                            class="overflow-hidden max-h-0 duration-500 transition-all">
+                            <div
+                                class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white mt-5">
+                                <ul>
+                                    <li><a href="./about-us.html"
+                                            class="px-5 py-2 pt-5   hover:text-indigo-600 transition-all duration-500 block">
+                                            Our Story </a></li>
+                                    <li><a href="./contactUs.html"
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Contact Us </a></li>
+                                    <li><a href="#"
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Risk Disclosure </a></li>
+                                    <li><a href="#"
+                                            class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
+                                            Coporate Social Responsibilty </a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
                     <li> <a href="./compliance.html" class="hover:text-indigo-600 transition-all duration-500"> Compliance</a></li>
                     <li> <a href="./csr.html" class="hover:text-indigo-600 transition-all duration-500"> Csr</a></li>
