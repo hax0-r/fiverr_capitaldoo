@@ -22,7 +22,7 @@
     <section class="pb-24 min-h-screen"
         style="background: linear-gradient(rgba(0, 0, 0, 0.804),rgba(0, 0, 0, 0.82)), url(https://st2.depositphotos.com/2673929/50720/i/600/depositphotos_507206240-stock-photo-rising-trading-forex-bar-chart.jpg) center/cover no-repeat;">
         <div id="navbar"></div>
-        <div class="flex items-center justify-center w-full min-h-[79vh] sm:pt-0 pt-16">
+        <div class="flex items-center justify-center w-full min-h-screen sm:pt-0 pt-16">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="mb-14 text-center">
                     <span
@@ -444,8 +444,8 @@
                 opportunity.
             </p>
 
-            <!-- Animated Number Counter -->
-            <section class="grid gap-12 md:grid-cols-4 grid-cols-2 md:gap-16 md:pt-20 py-8">
+              <!-- Animated Number Counter -->
+            <section id="counter-section" class="grid gap-12 md:grid-cols-4 grid-cols-2 md:gap-16 md:pt-20 py-8">
                 <!-- Block -->
                 <article class="flex items-center justify-center flex-col text-center">
                     <div class="w-14 h-14 rounded shadow-md bg-white flex justify-center items-center rotate-3 mb-6">
@@ -470,10 +470,10 @@
                     </div>
                     <h2>
                         <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
-                            <span class="">10,000</span>+
+                            <span id="counter1">0</span>+
                         </span>
                         <span
-                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Financial
+                            class="block md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Financial
                             Products</span>
                     </h2>
                 </article>
@@ -503,10 +503,10 @@
                     </div>
                     <h2>
                         <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
-                            <span class="">60</span>+
+                            <span id="counter2">0</span>+
                         </span>
                         <span
-                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Currency
+                            class="block md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Currency
                             Pairs
                         </span>
                     </h2>
@@ -533,10 +533,10 @@
                     </div>
                     <h2>
                         <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
-                            <span class="">300</span>+
+                            <span id="counter3">0</span>+
                         </span>
                         <span
-                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">U.S.
+                            class="block md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">U.S.
                             and Hong Kong Stocks
                         </span>
                     </h2>
@@ -565,10 +565,10 @@
                     </div>
                     <h2>
                         <span class=" text-slate-900 text-2xl md:text-4xl font-bold mb-2">
-                            <span class="">100</span>+
+                            <span id="counter4">0</span>+
                         </span>
                         <span
-                            class="inline-flex md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Global
+                            class="block md:font-semibold font-medium bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300 mb-2">Global
                             Stock Indices
                         </span>
                     </h2>
@@ -611,6 +611,12 @@
 
 
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./Docs/Javascripts/global.js"></script>
     <script src="./Docs/Javascripts/navbar-2.js"></script>
     <script src="./Docs/Javascripts/footer.js"></script>

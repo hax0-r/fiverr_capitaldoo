@@ -2,11 +2,10 @@ const navbar = document.getElementById("navbar")
 
 navbar.innerHTML = `
 
-    <div class=" z-50 sticky top-0">
+    <div id="bgNav" class=" z-50 fixed w-full  top-0">
         <div class="flex items-center justify-between max-w-7xl w-full mx-auto p-5">
             <a class="text-white" href="./index.html">
-                <!-- <img src="./Docs/Assets/logo.png" class="md:h-12 h-8" alt=""> -->
-                logo
+                <img src="https://capitaldoo.com/trading-platform/metatrader5/images/Man_Utd_x_Doo_Prime_desktop.png" class="md:h-12 h-8" alt=""> 
             </a>
             <ul class=" items-center justify-center gap-8 lg:flex hidden ">
                 <li class="flex group cursor-pointer items-center gap-2 relative text-white"> partnership <i
@@ -252,3 +251,22 @@ openNav.addEventListener('click', () => {
 closeNav.addEventListener('click', () => {
     resNav.style.width = "0%"
 })
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const bgNav = document.getElementById("bgNav");
+
+    if (!bgNav) {
+        console.error("bgNav element not found!");
+        return;
+    }
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 50) {
+            bgNav.classList.add("bg-black", "transition-colors", "duration-300");
+        } else {
+            bgNav.classList.remove("bg-black");
+        }
+    });
+});
+
