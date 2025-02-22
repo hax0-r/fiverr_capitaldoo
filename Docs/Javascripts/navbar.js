@@ -167,9 +167,6 @@ navbar.innerHTML = `
                                 <li><a href="./precious-metal.html"
                                         class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                         Precious Metal </a></li>
-                                <li><a href="./commodities.html"
-                                        class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                        Commodities </a></li>
                                 <li><a href="./stock-indices.html"
                                         class="px-5 py-2    hover:text-indigo-600 transition-all duration-500 block">
                                         Stock Indices </a></li>
