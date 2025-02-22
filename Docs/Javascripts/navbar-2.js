@@ -2,16 +2,16 @@ const navbar = document.getElementById("navbar")
 
 navbar.innerHTML = `
 
-   <div id="bgNav" class=" z-50 fixed w-full top-0">
+   <div id="bgNav" class="bg-white z-50 fixed w-full top-0">
     <div class="flex items-center justify-between max-w-7xl w-full mx-auto p-5">
         <a class="" href="./index.html">
             <img src="https://capitaldoo.com/trading-platform/metatrader5/images/Man_Utd_x_Doo_Prime_desktop.png"
                 class="md:h-12 h-8" alt="">
         </a>
         <ul class=" items-center justify-center gap-8 lg:flex hidden ">
-            <li> <a href="./index.html" class="hover:text-indigo-600 text-white transition-all duration-500">
+            <li> <a href="./index.html" class="hover:text-indigo-600 transition-all duration-500">
                     Home</a></li>
-            <li class="flex group text-white cursor-pointer items-center gap-2 relative "> Market <i
+            <li class="flex group cursor-pointer items-center gap-2 relative "> Market <i
                     class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
                 <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
                     <div class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
@@ -38,7 +38,7 @@ navbar.innerHTML = `
                     </div>
                 </div>
             </li>
-            <li class="flex group text-white cursor-pointer items-center gap-2 relative "> Tools <i
+            <li class="flex group cursor-pointer items-center gap-2 relative "> Tools <i
                     class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
                 <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
                     <div class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
@@ -48,18 +48,18 @@ navbar.innerHTML = `
                                     vps </a></li>
                             <li><a href="./mt4-vs-mt5.html"
                                     class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                    Mt4-vs-mt5 </a></li>
-                            <li><a href="./metatrader5.html"
+                                    Mt4 vs Mt5 </a></li>
+                                    <li><a href="./metatrader4.html"
                                     class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                    Metatrader 5 </a></li>
-                            <li><a href="./metatrader4.html"
-                                    class="px-5 py-2 block pb-5 hover:text-indigo-600 transition-all duration-500 ">
                                     Metatrader 4 </a></li>
+                                    <li><a href="./metatrader5.html"
+                                            class="px-5 py-2 block pb-5 hover:text-indigo-600 transition-all duration-500 ">
+                                            Metatrader 5 </a></li>
                         </ul>
                     </div>
                 </div>
             </li>
-            <li class="flex group text-white cursor-pointer items-center gap-2 relative "> Trading <i
+            <li class="flex group cursor-pointer items-center gap-2 relative "> Trading <i
                     class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
                 <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
                     <div class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
@@ -80,7 +80,7 @@ navbar.innerHTML = `
                     </div>
                 </div>
             </li>
-            <li class="flex group text-white cursor-pointer items-center gap-2 relative "> partnership <i
+            <li class="flex group cursor-pointer items-center gap-2 relative "> partnership <i
                     class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
                 <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-60">
                     <div class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
@@ -102,7 +102,7 @@ navbar.innerHTML = `
                 </div>
             </li>
 
-            <li class="flex group text-white cursor-pointer items-center gap-2 relative "> About Us <i
+            <li class="flex group cursor-pointer items-center gap-2 relative "> About Us <i
                     class="fa-solid fa-caret-down group-hover:rotate-180 transition-all duration-300"></i>
                 <div class="absolute fadeIn group-hover:block  pt-5 top-5 left-0 hidden w-72">
                     <div class="text-[#1d1d1d] overflow-hidden border border-[#1d1d1d] w-full rounded-lg bg-white z-40">
@@ -125,7 +125,7 @@ navbar.innerHTML = `
         </ul>
         <button
             class="px-10 p-2.5 rounded-lg border-2 text-white  lg:block hidden bg-indigo-600 border-indigo-600 font-medium transition-all duration-500 hover:bg-transparent hover:text-indigo-600">Login</button>
-        <i class="fa-solid fa-bars text-2xl text-white cursor-pointer lg:hidden" id="openNav"></i>
+        <i class="fa-solid fa-bars text-2xl cursor-pointer lg:hidden" id="openNav"></i>
     </div>
 </div>
 
@@ -312,20 +312,20 @@ closeNav.addEventListener('click', () => {
 })
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const bgNav = document.getElementById("bgNav");
+// document.addEventListener("DOMContentLoaded", function () {
+//     const bgNav = document.getElementById("bgNav");
 
-    if (!bgNav) {
-        console.error("bgNav element not found!");
-        return;
-    }
+//     if (!bgNav) {
+//         console.error("bgNav element not found!");
+//         return;
+//     }
 
-    window.addEventListener("scroll", function () {
-        if (window.scrollY > 40) {
-            bgNav.classList.add("bg-black", "transition-colors", "duration-300");
-        } else {
-            bgNav.classList.remove("bg-black");
-        }
-    });
-});
+//     window.addEventListener("scroll", function () {
+//         if (window.scrollY > 40) {
+//             bgNav.classList.add("bg-black", "transition-colors", "duration-300");
+//         } else {
+//             bgNav.classList.remove("bg-black");
+//         }
+//     });
+// });
 

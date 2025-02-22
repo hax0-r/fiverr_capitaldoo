@@ -127,7 +127,7 @@
 
     <!-- sections -->
 
-    <div class="flex md:flex-row  p-4 flex-col max-w-7xl mx-auto w-full">
+    <div class="flex md:flex-row md:mt-16 p-5 flex-col max-w-7xl mx-auto w-full">
         <!-- Left Sidebar -->
         <div class="md:w-1/4 bg-white p-2 border rounded-lg">
             <ul class="space-y-4">
@@ -142,11 +142,44 @@
         </div>
 
         <!-- Right Content -->
-        <div class="flex-1 p-6">
-            <div id="market" class="tab-content fadeIn">
-                <img src="https://images.unsplash.com/photo-1629339941379-da30348cdba6?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Market Image" class="rounded-lg shadow-md h-60 w-full object-cover">
-                <table class="w-full mt-4 bg-white shadow-lg rounded-lg">
+        <div class="flex-1 md:px-6 md:pt-0 pt-5">
+            <div id="market" class="tab-content fadeIn ">
+                <div class="flex md:flex-row flex-col gap-4">
+                    <img src="https://images.unsplash.com/photo-1629339941379-da30348cdba6?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Market Image" class="rounded-lg shadow-md md:max-w-60 w-full md:h-[32rem] object-cover">
+                    <table class="w-full bg-white shadow-lg rounded-lg">
+                        <thead>
+                            <tr class="bg-indigo-600 text-white">
+                                <th class="p-4">Feature</th>
+                                <th class="p-4">MT5</th>
+                                <th class="p-4">MT4</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="p-4">Undefined</td>
+                                <td class="p-4 text-green-500">✔</td>
+                                <td class="p-4 text-red-500">✘</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4">Undefined</td>
+                                <td class="p-4 text-green-500">✔</td>
+                                <td class="p-4 text-red-500">✘</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4">Undefined</td>
+                                <td class="p-4">[object Object]</td>
+                                <td class="p-4">1024</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="trading_model" class="tab-content fadeIn hidden"><div class="flex md:flex-row flex-col gap-4">
+                <img src="https://www.dooprime.ar/wp-content/themes/DP3-1104/style/images/tools-mt4vsmt5/mt4-vs-mt5-market-depth-pc-min.png"
+                    alt="Market Image" class="rounded-lg shadow-md md:max-w-60 w-full md:h-[32rem] object-cover">
+                <table class="w-full bg-white shadow-lg rounded-lg">
                     <thead>
                         <tr class="bg-indigo-600 text-white">
                             <th class="p-4">Feature</th>
@@ -156,30 +189,188 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="p-4">Spreads</td>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 ">[object Object]</td>
+                            <td class="p-4 ">[object Object]</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
                             <td class="p-4 text-green-500">✔</td>
                             <td class="p-4 text-red-500">✘</td>
                         </tr>
                         <tr>
-                            <td class="p-4">Spreads</td>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4">[object Object]</td>
+                            <td class="p-4">[object Object]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div></div>
+            <div id="order_execution" class="tab-content fadeIn hidden"><div class="flex md:flex-row flex-col gap-4">
+                <img src="https://www.dooprime.ar/wp-content/themes/DP3-1104/style/images/tools-mt4vsmt5/mt4-vs-mt5-order-execution-pc-min.png"
+                    alt="Market Image" class="rounded-lg shadow-md md:max-w-60 w-full md:h-[32rem] object-cover">
+                <table class="w-full bg-white shadow-lg rounded-lg">
+                    <thead>
+                        <tr class="bg-indigo-600 text-white">
+                            <th class="p-4">Feature</th>
+                            <th class="p-4">MT5</th>
+                            <th class="p-4">MT4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-4">Undefined</td>
                             <td class="p-4 text-green-500">✔</td>
                             <td class="p-4 text-red-500">✘</td>
                         </tr>
                         <tr>
-                            <td class="p-4">Lot Size</td>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
                             <td class="p-4">[object Object]</td>
                             <td class="p-4">1024</td>
                         </tr>
                     </tbody>
                 </table>
-            </div>
-
-            <div id="trading_model" class="tab-content fadeIn hidden">Trading Model Content</div>
-            <div id="order_execution" class="tab-content fadeIn hidden">Order Execution Content</div>
-            <div id="chart_indicators" class="tab-content fadeIn hidden">Chart Indicators Content</div>
-            <div id="additional_features" class="tab-content fadeIn hidden">Additional Features Content</div>
-            <div id="automatic_trading" class="tab-content fadeIn hidden">Automatic Trading Content</div>
-            <div id="system_config" class="tab-content fadeIn hidden">System Configuration Content</div>
+            </div></div>
+            <div id="chart_indicators" class="tab-content fadeIn hidden"><div class="flex md:flex-row flex-col gap-4">
+                <img src="https://www.dooprime.ar/wp-content/themes/DP3-1104/style/images/tools-mt4vsmt5/mt4-vs-mt5-chart-pc-min.png"
+                    alt="Market Image" class="rounded-lg shadow-md md:max-w-60 w-full md:h-[32rem] object-cover">
+                <table class="w-full bg-white shadow-lg rounded-lg">
+                    <thead>
+                        <tr class="bg-indigo-600 text-white">
+                            <th class="p-4">Feature</th>
+                            <th class="p-4">MT5</th>
+                            <th class="p-4">MT4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4">[object Object]</td>
+                            <td class="p-4">1024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div></div>
+            <div id="additional_features" class="tab-content fadeIn hidden"><div class="flex md:flex-row flex-col gap-4">
+                <img src="https://www.dooprime.ar/wp-content/themes/DP3-1104/style/images/tools-mt4vsmt5/mt4-vs-mt5-notify-pc-min.png"
+                    alt="Market Image" class="rounded-lg shadow-md md:max-w-60 w-full md:h-[32rem] object-cover">
+                <table class="w-full bg-white shadow-lg rounded-lg">
+                    <thead>
+                        <tr class="bg-indigo-600 text-white">
+                            <th class="p-4">Feature</th>
+                            <th class="p-4">MT5</th>
+                            <th class="p-4">MT4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4">[object Object]</td>
+                            <td class="p-4">1024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div></div>
+            <div id="automatic_trading" class="tab-content fadeIn hidden"><div class="flex md:flex-row flex-col gap-4">
+                <img src="https://www.dooprime.ar/wp-content/themes/DP3-1104/style/images/tools-mt4vsmt5/mt4-vs-mt5-analysis-pc-min.png"
+                    alt="Market Image" class="rounded-lg shadow-md md:max-w-60 w-full md:h-[32rem] object-cover">
+                <table class="w-full bg-white shadow-lg rounded-lg">
+                    <thead>
+                        <tr class="bg-indigo-600 text-white">
+                            <th class="p-4">Feature</th>
+                            <th class="p-4">MT5</th>
+                            <th class="p-4">MT4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4">[object Object]</td>
+                            <td class="p-4">1024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div></div>
+            <div id="system_config" class="tab-content fadeIn hidden"><div class="flex md:flex-row flex-col gap-4">
+                <img src="https://www.dooprime.ar/wp-content/themes/DP3-1104/style/images/tools-mt4vsmt5/mt4-vs-mt5-infrastructure-pc-min.png"
+                    alt="Market Image" class="rounded-lg shadow-md md:max-w-60 w-full md:h-[32rem] object-cover">
+                <table class="w-full bg-white shadow-lg rounded-lg">
+                    <thead>
+                        <tr class="bg-indigo-600 text-white">
+                            <th class="p-4">Feature</th>
+                            <th class="p-4">MT5</th>
+                            <th class="p-4">MT4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4 text-green-500">✔</td>
+                            <td class="p-4 text-red-500">✘</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">Undefined</td>
+                            <td class="p-4">[object Object]</td>
+                            <td class="p-4">1024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div></div>
         </div>
     </div>
 
@@ -295,7 +486,7 @@
                 opportunity.
             </p>
 
-              <!-- Animated Number Counter -->
+            <!-- Animated Number Counter -->
             <section id="counter-section" class="grid gap-12 md:grid-cols-4 grid-cols-2 md:gap-16 md:pt-20 py-8">
                 <!-- Block -->
                 <article class="flex items-center justify-center flex-col text-center">

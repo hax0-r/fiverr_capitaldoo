@@ -124,10 +124,63 @@
         </div>
     </section>
 
+    <!-- sections -->
+    <div class="md:mt-16 mt-8 p-5  max-w-7xl mx-auto w-full">
+        <h2 class="text-2xl font-bold text-center  md:text-4xl text-gray-900">Trade With EA on MT4</h2>
+        <p class="text-center text-gray-600 pt-4">
+            Both trading platforms consolidate different functions and features that cater to traders of
+            various types.
+        </p>
+        <div class="flex md:flex-row flex-col md:mt-12 mt-6">
+            <!-- Left Sidebar -->
+            <div class="md:w-1/4 bg-white p-2 border rounded-lg">
+                <ul class="space-y-4">
+                    <li class="tab cursor-pointer p-4 bg-indigo-50" onclick="switchTab('High_speed_Execution')">
+                        High-speed
+                        Execution</li>
+                    <li class="tab cursor-pointer p-4" onclick="switchTab('Operating_Round_the_Clock')">Operating Round
+                        the
+                        Clock</li>
+                    <li class="tab cursor-pointer p-4" onclick="switchTab('back')">Back Testing of Historic Quotes</li>
+                    <li class="tab cursor-pointer p-4" onclick="switchTab('Extensive_Features')">Extensive Features</li>
+                </ul>
+            </div>
+
+            <!-- Right Content -->
+            <div class="flex-1 md:px-6 md:pt-0 pt-5">
+                <div id="High_speed_Execution" class="tab-content fadeIn">
+                    <img src="https://capitaldoo.com/trading-platform/metatrader4/images/mt4-advisor-img-01.jpg"
+                        alt="Market Image" class="rounded-lg shadow-md md:h-80 w-full ">
+                    <p class="mt-4 text-gray-700">Executing trades swiftly and efficiently by analyzing market trends.
+                        Also
+                        identifies market opportunities automatically to buy and sell. </p>
+                </div>
+
+                <div id="Operating_Round_the_Clock" class="tab-content fadeIn hidden">
+                    <img src="https://capitaldoo.com/trading-platform/metatrader4/images/mt4-advisor-img-02.jpg"
+                        alt="Market Image" class="rounded-lg shadow-md md:h-80 w-full ">
+                    <p class="mt-4 text-gray-700">Stays active 24 hours a day, while automatically executing trades based on your trading conditions to yield financial gains.                    </p>
+                </div>
+                <div id="back" class="tab-content fadeIn hidden"> <img
+                        src="https://capitaldoo.com/trading-platform/metatrader4/images/mt4-advisor-img-03.jpg"
+                        alt="Market Image" class="rounded-lg shadow-md md:h-80 w-full ">
+                    <p class="mt-4 text-gray-700">Users can evaluate and adjust their trading strategies through back testing and view the statistics of profitability to make the best trading decisions.
+                    </p>
+                </div>
+                <div id="Extensive_Features" class="tab-content fadeIn hidden">
+                    <img src="https://capitaldoo.com/trading-platform/metatrader4/images/mt4-advisor-img-04.jpg"
+                        alt="Market Image" class="rounded-lg shadow-md md:h-80 w-full ">
+                    <p class="mt-4 text-gray-700">Supports EA automated trading and multi-account management system, incorporating a high degree of versatility and customization. Available in multiple languages.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- cards -->
 
 
-    <div class="md:mt-10">
+    <div class="mt-10">
         <div class="mx-auto max-w-7xl px-5 md:px-10 md:py-16  ">
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 md:grid-cols-3 ">
                 <div
@@ -211,7 +264,7 @@
 
     <!-- MT4 VS MT5-->
 
-    <div class="md:mt-10">
+    <div class="md:mt-5 ">
         <div class="mx-auto max-w-7xl px-5 pt-16 md:px-10 md:pt-16  ">
             <div class="mx-auto w-full max-w-5xl text-center">
                 <h2 class="text-2xl font-bold  no:text-white md:text-4xl text-gray-900">MT4 VS MT5
@@ -348,6 +401,11 @@
                     functions, comprehensive technical analysis, copy trading, and EA automatic trading functions.
 
                 </p>
+                <div class="flex items-center justify-center gap-2 flex-wrap mt-6">
+                    <button class="px-4 border border-gray-500 text-gray-600 py-2 hover:bg-gray-100 transition-all duration-500 rounded-full flex items-center gap-2"><i class="fa-brands fa-windows"></i>Windows</button>
+                    <button class="px-4 border border-gray-500 text-gray-600 py-2 hover:bg-gray-100 transition-all duration-500 rounded-full flex items-center gap-2"><i class="fa-brands fa-apple"></i>MacOS</button>
+                    <button class="px-4 border border-gray-500 text-gray-600 py-2 hover:bg-gray-100 transition-all duration-500 rounded-full flex items-center gap-2"><i class="fa-solid fa-desktop"></i>Web</button>
+                </div>
             </div>
         </div>
         <div class="w-full bg-white border border-gray-200 rounded-lg shadow-sm ">
@@ -363,6 +421,10 @@
                 <p class="mb-3  text-gray-700 ">Enjoy global investment at your fingertips by trading various
                     currencies, stocks and other securities anytime, anywhere with CapitalDoo MT5 mobile terminal.
                 </p>
+                <div class="flex items-center justify-center gap-2 flex-wrap mt-6">
+                    <button class="px-4 border border-gray-500 text-gray-600 py-2 hover:bg-gray-100 transition-all duration-500 rounded-full flex items-center gap-2"><i class="fa-brands fa-android"></i>Andorid</button>
+                    <button class="px-4 border border-gray-500 text-gray-600 py-2 hover:bg-gray-100 transition-all duration-500 rounded-full flex items-center gap-2"><i class="fa-brands fa-apple"></i>IOS</button>
+                </div>
             </div>
         </div>
 
@@ -445,7 +507,7 @@
                 opportunity.
             </p>
 
-              <!-- Animated Number Counter -->
+            <!-- Animated Number Counter -->
             <section id="counter-section" class="grid gap-12 md:grid-cols-4 grid-cols-2 md:gap-16 md:pt-20 py-8">
                 <!-- Block -->
                 <article class="flex items-center justify-center flex-col text-center">
@@ -621,6 +683,19 @@
     <script src="./Docs/Javascripts/global.js"></script>
     <script src="./Docs/Javascripts/navbar-2.js"></script>
     <script src="./Docs/Javascripts/footer.js"></script>
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.add('hidden');
+            });
+            document.getElementById(tabId).classList.remove('hidden');
+
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('bg-indigo-50');
+            });
+            event.target.classList.add('bg-indigo-50');
+        }
+    </script>
 </body>
 
 </html>
