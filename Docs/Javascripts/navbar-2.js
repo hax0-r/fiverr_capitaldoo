@@ -66,7 +66,7 @@ navbar.innerHTML = `
                         <ul>
                             <li><a href="./pricing.html"
                                     class="px-5 py-2 block pt-5 hover:text-indigo-600 transition-all duration-500 ">
-                                    Pricing-model </a></li>
+                                    Pricing Model </a></li>
                             <li><a href="./technology.html"
                                     class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                     Technology </a></li>

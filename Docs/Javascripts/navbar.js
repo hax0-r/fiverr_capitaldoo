@@ -48,12 +48,12 @@ navbar.innerHTML = `
                             <li><a href="./mt4-vs-mt5.html"
                                     class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                     Mt4 vs Mt5 </a></li>
-                            <li><a href="./metatrader5.html"
+                                    <li><a href="./metatrader4.html"
                                     class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
-                                    Metatrader 5 </a></li>
-                            <li><a href="./metatrader4.html"
-                                    class="px-5 py-2 block pb-5 hover:text-indigo-600 transition-all duration-500 ">
                                     Metatrader 4 </a></li>
+                                    <li><a href="./metatrader5.html"
+                                            class="px-5 py-2 block pb-5 hover:text-indigo-600 transition-all duration-500 ">
+                                            Metatrader 5 </a></li>
                         </ul>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ navbar.innerHTML = `
                         <ul>
                             <li><a href="./pricing.html"
                                     class="px-5 py-2 block pt-5 hover:text-indigo-600 transition-all duration-500 ">
-                                    Pricing-model </a></li>
+                                    Pricing Model </a></li>
                             <li><a href="./technology.html"
                                     class="px-5 py-2 block  hover:text-indigo-600 transition-all duration-500 ">
                                     Technology </a></li>
