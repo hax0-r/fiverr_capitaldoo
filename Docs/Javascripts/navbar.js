@@ -259,7 +259,7 @@ navbar.innerHTML = `
                     </div>
                 </li>
 
-                <li class="bg-white " x-data="accordion(4)">
+                <li class="bg-white " x-data="accordion(5)">
                     <h2 @click="handleClick()"
                         class="flex flex-row justify-between items-center font-medium  cursor-pointer">
                         <span>About Us</span>
